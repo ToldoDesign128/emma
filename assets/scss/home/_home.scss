@@ -1,0 +1,202 @@
+.home{
+    padding: 10rem 2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__text{
+        text-align: center;
+        z-index: 1;
+
+        p,a{
+            font-size: 3.8rem;
+            line-height: 4.8rem;
+            font-weight: 300;
+        }
+        
+        @media (max-width: 768px) {
+            display: none;            
+        }
+    }
+
+    &__mobile{
+        display: none;
+        padding: 10rem 0.6rem;
+
+        &__text{
+            text-align: center;
+    
+            p,a{
+                font-size: 3.2rem;
+                line-height: 3.6rem;
+                font-weight: 300;
+                word-break: break-all;
+            }
+        }
+
+        @media (max-width: 768px) {
+            display: flex;            
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding: 0;
+        height: auto;
+    }
+}
+
+.animation{
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+
+    &__box{
+        z-index: 0;
+
+        &__1, &__2, &__3, &__4{
+            margin: 2rem 0;
+            position: absolute;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            h5{
+                width: fit-content;
+                padding: 0.6rem 2.4rem;
+                color: #ff6600;
+                background: #fff;
+                border: 1px solid #ff6600;
+                border-radius: 5rem;
+            }
+        }
+
+        &__1{
+            top: 24%;
+            left: 0%;  
+            animation-name: uno;
+            
+            @keyframes uno {
+                0% {left: 0%;}
+                50% {left: 40%;}
+                100% {left: 0%;}                
+            }
+
+            @media (max-width: 996px) {
+                top: 15%;
+                @keyframes uno {
+                    0% {left: 0%;}
+                    50% {left: 30%;}
+                    100% {left: 0%;}                
+                }              
+            }
+
+            @media (max-width: 768px) {
+                display: none;               
+            }
+        }
+        &__2{
+            top: 31%;
+            left: 60%;              
+            animation-name: due;
+            
+            @keyframes due {
+                0% {left: 60%;}
+                50% {left: 20%;}
+                100% {left: 60%;}                
+            }
+
+            @media (max-width: 996px) {
+                @keyframes due {
+                    0% {left: 22%;}
+                    50% {left: 4%;}
+                    100% {left: 22%;}                
+                }              
+            }
+
+            @media (max-width: 768px) {
+                display: none;               
+            }
+        }
+        &__3{
+            top: 51%;
+            left: 20%; 
+            animation-name: tre;
+            
+            @keyframes tre {
+                0% {left: 20%;}
+                50% {left: 50%;}
+                100% {left: 20%;}                
+            }   
+            
+            @media (max-width: 996px) {
+                top: 53%;
+                @keyframes tre {
+                    0% {left: 20%;}
+                    50% {left: 1%;}
+                    100% {left: 20%;}                
+                }              
+            }
+            
+            @media (max-width: 768px) {
+                display: none;               
+            }
+        }
+        &__4{
+            top: 65%;
+            left: 50%;    
+            animation-name: quattro;
+            
+            @keyframes quattro {
+                0% {left: 50%;}
+                50% {left: 0%;}
+                100% {left: 50%;}                
+            }      
+
+            @media (max-width: 996px) {
+                top: 76%;
+                @keyframes quattro {
+                    0% {left: 14%;}
+                    50% {left: 0%;}
+                    100% {left: 14%;}                
+                }              
+            }
+            
+            @media (max-width: 768px) {
+                display: none;               
+            }
+        }
+    }
+}
+
+.maglietta{
+    display: none;
+}
+
+.risotto{
+    display: none;
+}
+
+.libro{
+    display: none;
+}
+
+.poster{
+    display: none;
+}
+
+.cartoline{
+    display: none;
+}
+
+.video{
+    display: none;
+}
+
+.vestiti{
+    display: none;
+}
