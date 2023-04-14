@@ -49,14 +49,47 @@ ol, ul {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, b, i, em, strong, ul, ol, li, button {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+b,
+i,
+em,
+strong,
+ul,
+ol,
+li,
+button {
   font-family: "Circular Std", sans-serif;
 }
 
 h1 {
-  font-size: 3.8rem;
+  font-size: 3.4rem;
   line-height: 4.3rem;
   font-weight: 300;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+  }
 }
 
 h2 {
@@ -81,6 +114,12 @@ h5 {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 300;
+}
+@media (max-width: 992px) {
+  h5 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
 }
 
 h6 {
@@ -147,6 +186,11 @@ a:hover {
   background: rgb(128, 0, 128);
   background: radial-gradient(circle, rgb(128, 0, 128) 0%, rgba(255, 255, 255, 0) 50%);
 }
+@media (max-width: 1200px) {
+  .cursor {
+    display: none;
+  }
+}
 
 footer {
   position: fixed;
@@ -155,6 +199,7 @@ footer {
   height: 10vh;
   width: 100%;
   background: #fff;
+  z-index: 999;
 }
 footer .contact {
   height: 100%;
@@ -185,6 +230,7 @@ header {
   height: 10vh;
   width: 100%;
   background: #fff;
+  z-index: 999;
 }
 header .header {
   height: 100%;
@@ -208,7 +254,7 @@ header .header {
 }
 
 .home {
-  padding: 10rem 2rem;
+  padding: 0 2rem;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -216,13 +262,26 @@ header .header {
   flex-direction: column;
 }
 .home__text {
+  max-height: 50rem;
   text-align: center;
   z-index: 1;
 }
 .home__text p, .home__text a {
-  font-size: 3.8rem;
-  line-height: 4.8rem;
+  font-size: 3.4rem;
+  line-height: 4.4rem;
   font-weight: 300;
+}
+@media (max-width: 1200px) {
+  .home__text p, .home__text a {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .home__text p, .home__text a {
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+  }
 }
 @media (max-width: 768px) {
   .home__text {
@@ -230,21 +289,24 @@ header .header {
   }
 }
 .home__mobile {
+  padding: 0 1rem;
   display: none;
-  padding: 10rem 0.6rem;
+  height: 100vh;
 }
 .home__mobile__text {
   text-align: center;
 }
 .home__mobile__text p, .home__mobile__text a {
-  font-size: 3.2rem;
-  line-height: 3.6rem;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
   font-weight: 300;
-  word-break: break-all;
 }
 @media (max-width: 768px) {
   .home__mobile {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (max-width: 768px) {
@@ -255,18 +317,22 @@ header .header {
 }
 
 .animation {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
   top: 0;
   left: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .animation__box {
-  z-index: 0;
+  position: relative;
+  height: 50rem;
+  width: 100%;
 }
 .animation__box__1, .animation__box__2, .animation__box__3, .animation__box__4 {
-  margin: 2rem 0;
   position: absolute;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -281,8 +347,13 @@ header .header {
   border: 1px solid #ff6600;
   border-radius: 5rem;
 }
+@media (max-width: 992px) {
+  .animation__box__1 h5, .animation__box__2 h5, .animation__box__3 h5, .animation__box__4 h5 {
+    padding: 0.4rem 1.8rem;
+  }
+}
 .animation__box__1 {
-  top: 24%;
+  top: 20%;
   left: 0%;
   animation-name: uno;
 }
@@ -297,9 +368,9 @@ header .header {
     left: 0%;
   }
 }
-@media (max-width: 996px) {
+@media (max-width: 1200px) {
   .animation__box__1 {
-    top: 15%;
+    top: 22%;
   }
   @keyframes uno {
     0% {
@@ -313,28 +384,39 @@ header .header {
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .animation__box__1 {
-    display: none;
+    top: 16%;
+  }
+  @keyframes uno {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 30%;
+    }
+    100% {
+      left: 0%;
+    }
   }
 }
 .animation__box__2 {
-  top: 31%;
+  top: 38%;
   left: 60%;
   animation-name: due;
 }
 @keyframes due {
   0% {
-    left: 60%;
+    left: 50%;
   }
   50% {
     left: 20%;
   }
   100% {
-    left: 60%;
+    left: 50%;
   }
 }
-@media (max-width: 996px) {
+@media (max-width: 1200px) {
   @keyframes due {
     0% {
       left: 22%;
@@ -347,13 +429,24 @@ header .header {
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .animation__box__2 {
-    display: none;
+    top: 40%;
+  }
+  @keyframes due {
+    0% {
+      left: 30%;
+    }
+    50% {
+      left: 10%;
+    }
+    100% {
+      left: 30%;
+    }
   }
 }
 .animation__box__3 {
-  top: 51%;
+  top: 55%;
   left: 20%;
   animation-name: tre;
 }
@@ -368,9 +461,9 @@ header .header {
     left: 20%;
   }
 }
-@media (max-width: 996px) {
+@media (max-width: 1200px) {
   .animation__box__3 {
-    top: 53%;
+    top: 54%;
   }
   @keyframes tre {
     0% {
@@ -384,13 +477,24 @@ header .header {
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .animation__box__3 {
-    display: none;
+    top: 61%;
+  }
+  @keyframes tre {
+    0% {
+      left: 35%;
+    }
+    50% {
+      left: 0%;
+    }
+    100% {
+      left: 35%;
+    }
   }
 }
 .animation__box__4 {
-  top: 65%;
+  top: 73%;
   left: 50%;
   animation-name: quattro;
 }
@@ -405,9 +509,9 @@ header .header {
     left: 50%;
   }
 }
-@media (max-width: 996px) {
+@media (max-width: 1200px) {
   .animation__box__4 {
-    top: 76%;
+    top: 71%;
   }
   @keyframes quattro {
     0% {
@@ -421,14 +525,71 @@ header .header {
     }
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .animation__box__4 {
+    top: 78%;
+  }
+  @keyframes quattro {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 30%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .animation {
     display: none;
   }
 }
 
 .maglietta {
   display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+.maglietta__text {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  background: #fff;
+  border: 1px solid black;
+  padding: 2rem 5rem 2rem 2rem;
+}
+.maglietta__text__title {
+  margin: 0 0 2rem 0;
+}
+.maglietta__text p:last-child {
+  margin-top: 10rem;
+}
+.maglietta__image__1 {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  height: 65rem;
+  width: auto;
+}
+.maglietta__image__2 {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  height: 30rem;
+  width: auto;
+}
+.maglietta__image__3 {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  height: 30rem;
+  width: auto;
 }
 
 .risotto {

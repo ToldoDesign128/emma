@@ -18,10 +18,12 @@
     </div>
 </section>
 <section class="animation">
-    <div class="animation__box__1"> <h5>grafica editoriale | brand identity | promozione eventi | installazioni</h5> </div>
-    <div class="animation__box__2"> <h5>BA | Design del prodotto e della comunicazione | IUAV Università di Venezia</h5> </div>
-    <div class="animation__box__3"> <h5>MA | Visual Communication | Zürcher Hochschule der Künste</h5> </div>
-    <div class="animation__box__4"> <h5>Vivo a Mori ma al momento mi trovo a Zurigo.</h5> </div>
+    <div class="animation__box">
+        <div class="animation__box__1"> <h5>grafica editoriale | brand identity | promozione eventi | installazioni</h5> </div>
+        <div class="animation__box__2"> <h5>BA | Design del prodotto e della comunicazione | IUAV Università di Venezia</h5> </div>
+        <div class="animation__box__3"> <h5>MA | Visual Communication | Zürcher Hochschule der Künste</h5> </div>
+        <div class="animation__box__4"> <h5>Vivo a Mori ma al momento mi trovo a Zurigo.</h5> </div>
+    </div>
 </section>
 
 <!-- Maglietta -->
@@ -31,6 +33,11 @@
         <p>Questa maglietta nasce dall’idea di identificare un gruppo di amici che si conosce ormai da anni.</p>
         <p>Cosa gli accomuna? Il Campari naturalmente.</p>
         <p>Giugno 2022</p>
+    </div>
+    <div class="maglietta__image">
+        <img src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="" class="maglietta__image__1">
+        <img src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="" class="maglietta__image__2">
+        <img src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="" class="maglietta__image__3">
     </div>
 </section>
 

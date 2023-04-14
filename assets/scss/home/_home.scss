@@ -1,5 +1,5 @@
 .home{
-    padding: 10rem 2rem;
+    padding: 0 2rem;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -7,59 +7,76 @@
     flex-direction: column;
 
     &__text{
+        max-height: 50rem;
         text-align: center;
         z-index: 1;
 
         p,a{
-            font-size: 3.8rem;
-            line-height: 4.8rem;
+            font-size: 3.4rem;
+            line-height: 4.4rem;
             font-weight: 300;
+
+            @media #{$small-desktop} {
+                font-size: 3rem;
+                line-height: 4rem;           
+            }
+            @media #{$tablet} {
+                font-size: 2.2rem;
+                line-height: 3.4rem;           
+            }
         }
         
-        @media (max-width: 768px) {
+        @media #{$phone} {
             display: none;            
         }
     }
 
     &__mobile{
+        padding: 0 1rem;
         display: none;
-        padding: 10rem 0.6rem;
+        height: 100vh;
 
         &__text{
             text-align: center;
     
             p,a{
-                font-size: 3.2rem;
-                line-height: 3.6rem;
+                font-size: 2.8rem;
+                line-height: 3.2rem;
                 font-weight: 300;
-                word-break: break-all;
             }
         }
 
-        @media (max-width: 768px) {
-            display: flex;            
+        @media #{$phone} {
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;           
         }
     }
 
-    @media (max-width: 768px) {
+    @media #{$phone} {
         padding: 0;
         height: auto;
     }
 }
 
 .animation{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    transition: all 1s cubic-bezier(.215, .61, .355, 1);
 
     &__box{
-        z-index: 0;
+        position: relative;
+        height: 50rem;
+        width: 100%;
 
         &__1, &__2, &__3, &__4{
-            margin: 2rem 0;
             position: absolute;
             animation-duration: 15s;
             animation-iteration-count: infinite;
@@ -72,11 +89,15 @@
                 background: #fff;
                 border: 1px solid #ff6600;
                 border-radius: 5rem;
+
+                @media #{$tablet} {
+                    padding: 0.4rem 1.8rem;                    
+                }
             }
         }
 
         &__1{
-            top: 24%;
+            top: 20%;
             left: 0%;  
             animation-name: uno;
             
@@ -85,45 +106,51 @@
                 50% {left: 40%;}
                 100% {left: 0%;}                
             }
-
-            @media (max-width: 996px) {
-                top: 15%;
+            @media #{$small-desktop} {
+                top: 22%;
                 @keyframes uno {
                     0% {left: 0%;}
                     50% {left: 30%;}
                     100% {left: 0%;}                
                 }              
             }
-
-            @media (max-width: 768px) {
-                display: none;               
+            @media #{$tablet} {
+                top: 16%;
+                @keyframes uno {
+                    0% {left: 0%;}
+                    50% {left: 30%;}
+                    100% {left: 0%;}                
+                }              
             }
         }
         &__2{
-            top: 31%;
+            top: 38%;
             left: 60%;              
             animation-name: due;
             
             @keyframes due {
-                0% {left: 60%;}
+                0% {left: 50%;}
                 50% {left: 20%;}
-                100% {left: 60%;}                
+                100% {left: 50%;}                
             }
-
-            @media (max-width: 996px) {
+            @media #{$small-desktop} {
                 @keyframes due {
                     0% {left: 22%;}
                     50% {left: 4%;}
                     100% {left: 22%;}                
                 }              
             }
-
-            @media (max-width: 768px) {
-                display: none;               
+            @media #{$tablet} {
+                top: 40%;
+                @keyframes due {
+                    0% {left: 30%;}
+                    50% {left: 10%;}
+                    100% {left: 30%;}                
+                }              
             }
         }
         &__3{
-            top: 51%;
+            top: 55%;
             left: 20%; 
             animation-name: tre;
             
@@ -131,23 +158,26 @@
                 0% {left: 20%;}
                 50% {left: 50%;}
                 100% {left: 20%;}                
-            }   
-            
-            @media (max-width: 996px) {
-                top: 53%;
+            }            
+            @media #{$small-desktop} {
+                top: 54%;
                 @keyframes tre {
                     0% {left: 20%;}
                     50% {left: 1%;}
                     100% {left: 20%;}                
                 }              
             }
-            
-            @media (max-width: 768px) {
-                display: none;               
+            @media #{$tablet} {
+                top: 61%;
+                @keyframes tre {
+                    0% {left: 35%;}
+                    50% {left: 0%;}
+                    100% {left: 35%;}                
+                }              
             }
         }
         &__4{
-            top: 65%;
+            top: 73%;
             left: 50%;    
             animation-name: quattro;
             
@@ -155,26 +185,85 @@
                 0% {left: 50%;}
                 50% {left: 0%;}
                 100% {left: 50%;}                
-            }      
-
-            @media (max-width: 996px) {
-                top: 76%;
+            }
+            @media #{$small-desktop} {
+                top: 71%;
                 @keyframes quattro {
                     0% {left: 14%;}
                     50% {left: 0%;}
                     100% {left: 14%;}                
                 }              
             }
-            
-            @media (max-width: 768px) {
-                display: none;               
+            @media #{$tablet} {
+                top: 78%;
+                @keyframes quattro {
+                    0% {left: 0%;}
+                    50% {left: 30%;}
+                    100% {left: 0%;}                
+                }              
             }
         }
+    }
+
+    @media #{$phone} {
+        display: none;        
     }
 }
 
 .maglietta{
     display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+
+    &__text{
+        position: absolute;
+        bottom: 10%;
+        right: 0;
+        background: #fff;
+        border: 1px solid black;
+        padding: 2rem 5rem 2rem 2rem;
+
+        &__title{
+            margin: 0 0 2rem 0;
+        }
+
+        p{
+            &:last-child{
+                margin-top: 10rem;
+            }
+        }
+    }
+
+    &__image{
+
+        &__1{
+            position: absolute;
+            bottom: 10%;
+            left: 0;
+            height: 65rem;
+            width: auto;
+        }
+
+        &__2{
+            position: absolute;
+            top: 10%;
+            right: 0;
+            height: 30rem;
+            width: auto;
+        }
+
+        &__3{
+            position: absolute;
+            top: 10%;
+            right: 20%;
+            height: 30rem;
+            width: auto;
+        }
+    }
 }
 
 .risotto{
