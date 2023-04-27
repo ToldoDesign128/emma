@@ -14,7 +14,7 @@
 <header>
     <div class="header">
         <div class="header__items"><p>Emma Scala | Visual designer</p></div>
-        <div class="header__items"><p>Telefono | <a href="tel:+39 3311053515" class="header__items__link">+39 3311053515</a></p></div>
+        <div class="header__items"><p>Telefono | <a href="tel:+39 3311053515" target="_blank" class="header__items__link">+39 3311053515</a></p></div>
     </div>
 </header>
 
