@@ -16,7 +16,8 @@
         width: 14rem;
         height: 14rem;    
         background: rgb(128,0,128);
-        background: radial-gradient(circle, rgba(128,0,128,1) 0%, rgba(255,255,255,0) 50%);
+        background
+        : radial-gradient(circle, rgba(128,0,128,1) 0%, rgba(255,255,255,0) 50%);
     }
 
     @media #{$small-desktop} {

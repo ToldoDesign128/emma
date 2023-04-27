@@ -1,0 +1,55 @@
+.maglietta__mobile{
+    width: 100%;
+    padding: 0 1rem;
+    padding-top: 10rem;
+
+    &__text{
+
+        &__title{
+
+        }
+        p{
+            margin: 2rem 0;
+        }
+    }
+
+    &__image{
+        max-width: 100%;
+
+        img{
+            max-width: 100%;
+        }
+    }
+
+    @media #{$only-mobile} {
+        display: none;        
+    }
+}
+
+.risotto__mobile{
+    width: 100%;
+    padding: 0 1rem;
+    padding-top: 10rem;
+
+    &__text{
+
+        &__title{
+
+        }
+        p{
+            margin: 2rem 0;
+        }
+    }
+
+    &__image{
+        max-width: 100%;
+
+        img{
+            max-width: 100%;
+        }
+    }
+
+    @media #{$only-mobile} {
+        display: none;        
+    }
+}

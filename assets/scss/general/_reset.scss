@@ -19,6 +19,7 @@ html{
 }
 
 footer, header, nav, section, main{
+    overflow-x: hidden;
     display: block;
 }
 

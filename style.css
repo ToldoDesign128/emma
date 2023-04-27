@@ -37,6 +37,7 @@ html {
 }
 
 footer, header, nav, section, main {
+  overflow-x: hidden;
   display: block;
 }
 
@@ -251,6 +252,23 @@ header .header {
   header {
     height: 8vh;
   }
+}
+
+.backdrop {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  background-color: #000;
+  opacity: 0;
+  bottom: 0;
+  left: -100vw;
+  right: -100vw;
+  height: 100vh;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease-in-out;
+}
+.backdrop.backdrop-show {
+  opacity: 0.64;
 }
 
 .home {
@@ -555,6 +573,8 @@ header .header {
   width: 100vw;
   height: 100vh;
   z-index: 10;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
 }
 .maglietta__text {
   position: absolute;
@@ -614,4 +634,48 @@ header .header {
 
 .vestiti {
   display: none;
+}
+
+.open {
+  display: block;
+}
+
+.maglietta__mobile {
+  width: 100%;
+  padding: 0 1rem;
+  padding-top: 10rem;
+}
+.maglietta__mobile__text p {
+  margin: 2rem 0;
+}
+.maglietta__mobile__image {
+  max-width: 100%;
+}
+.maglietta__mobile__image img {
+  max-width: 100%;
+}
+@media (min-width: 992px) {
+  .maglietta__mobile {
+    display: none;
+  }
+}
+
+.risotto__mobile {
+  width: 100%;
+  padding: 0 1rem;
+  padding-top: 10rem;
+}
+.risotto__mobile__text p {
+  margin: 2rem 0;
+}
+.risotto__mobile__image {
+  max-width: 100%;
+}
+.risotto__mobile__image img {
+  max-width: 100%;
+}
+@media (min-width: 992px) {
+  .risotto__mobile {
+    display: none;
+  }
 }

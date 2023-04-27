@@ -27,3 +27,21 @@ header{
         height: 8vh;
     }
 }
+
+.backdrop {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    background-color: #000;
+    opacity: 0;
+    bottom: 0;
+    left: -100vw;
+    right: -100vw;
+    height: 100vh;
+    transform: translateY(100%);
+    transition: opacity 0.3s ease-in-out;
+
+    &.backdrop-show {
+      opacity: 0.64;
+    }
+  }
