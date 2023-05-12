@@ -1,33 +1,110 @@
-*, *:before, *:after{
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    text-size-adjust: none;
-    cursor: none;
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  cursor: none;
 }
 
-html{
-    background: #fff;
-    font-size: 62.5%; // 1rem = 10px;
+html {
+  background: #fff;
+  font-size: 62.5%; // 1rem = 10px;
 }
 
-footer, header, nav, section, main{
-    overflow-x: hidden;
-    display: block;
+footer,
+header,
+nav,
+section,
+main {
+  overflow-x: hidden;
+  display: block;
 }
 
-body{
-    background: #fff;
-    line-height: 1;
+body {
+  background: #fff;
+  line-height: 1;
 }
 
-ol, ul{
-    list-style: none;
+ol,
+ul {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border: 1px solid #ff6600;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border: 1px solid #ff1493;
 }

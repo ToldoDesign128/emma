@@ -37,7 +37,7 @@
         height: 100vh;
 
         &__text{
-            text-align: center;
+            text-align: left;
     
             p,a{
                 font-size: 2.8rem;
@@ -89,6 +89,8 @@
                 background: #fff;
                 border: 1px solid #ff6600;
                 border-radius: 5rem;
+                font-family: 'Minipax', 'Times New Roman', Times, serif;
+                font-weight: 500;
 
                 @media #{$tablet} {
                     padding: 0.4rem 1.8rem;                    
@@ -208,87 +210,6 @@
     @media #{$phone} {
         display: none;        
     }
-}
-
-.maglietta{
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
-    backdrop-filter: blur(3px);
-
-    &__text{
-        position: absolute;
-        bottom: 10%;
-        right: 0;
-        background: #fff;
-        border: 1px solid black;
-        padding: 2rem 5rem 2rem 2rem;
-
-        &__title{
-            margin: 0 0 2rem 0;
-        }
-
-        p{
-            &:last-child{
-                margin-top: 10rem;
-            }
-        }
-    }
-
-    &__image{
-
-        &__1{
-            position: absolute;
-            bottom: 10%;
-            left: 0;
-            height: 65rem;
-            width: auto;
-        }
-
-        &__2{
-            position: absolute;
-            top: 10%;
-            right: 0;
-            height: 30rem;
-            width: auto;
-        }
-
-        &__3{
-            position: absolute;
-            top: 10%;
-            right: 20%;
-            height: 30rem;
-            width: auto;
-        }
-    }
-}
-
-.risotto{
-    display: none;
-}
-
-.libro{
-    display: none;
-}
-
-.poster{
-    display: none;
-}
-
-.cartoline{
-    display: none;
-}
-
-.video{
-    display: none;
-}
-
-.vestiti{
-    display: none;
 }
 
 .open{
