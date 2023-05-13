@@ -91,6 +91,8 @@ ul {
 
 ::-webkit-scrollbar {
   width: 10px;
+  border-left: 1px solid black;
+  padding: 1rem;
 }
 
 /* Track */
@@ -100,11 +102,10 @@ ul {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  border: 1px solid #ff6600;
-  border-radius: 10px;
+  background-color: black;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  border: 1px solid #ff1493;
+  background-color: black;
 }

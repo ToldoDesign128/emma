@@ -109,6 +109,8 @@ ul {
 
 ::-webkit-scrollbar {
   width: 10px;
+  border-left: 1px solid black;
+  padding: 1rem;
 }
 
 /* Track */
@@ -118,13 +120,12 @@ ul {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  border: 1px solid #ff6600;
-  border-radius: 10px;
+  background-color: black;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  border: 1px solid #ff1493;
+  background-color: black;
 }
 
 @font-face {
@@ -724,6 +725,7 @@ header .header__items p {
     flex-direction: column;
     padding: 2rem;
     background-color: #fff;
+    border: 1px solid black;
   }
   .maglietta__mobile__text {
     border-top: none;
@@ -744,6 +746,7 @@ header .header__items p {
     flex-direction: column;
     padding: 2rem;
     background-color: #fff;
+    border: 1px solid black;
   }
   .risotto__mobile__text {
     border-top: none;
@@ -764,6 +767,7 @@ header .header__items p {
     flex-direction: column;
     padding: 2rem;
     background-color: #fff;
+    border: 1px solid black;
   }
   .poster__mobile__text {
     border-top: none;
@@ -784,6 +788,7 @@ header .header__items p {
     flex-direction: column;
     padding: 2rem;
     background-color: #fff;
+    border: 1px solid black;
   }
   .cartoline__mobile__text {
     border-top: none;
@@ -804,6 +809,7 @@ header .header__items p {
     flex-direction: column;
     padding: 2rem;
     background-color: #fff;
+    border: 1px solid black;
   }
   .video__mobile__text {
     border-top: none;
@@ -824,6 +830,7 @@ header .header__items p {
     flex-direction: column;
     padding: 2rem;
     background-color: #fff;
+    border: 1px solid black;
   }
   .vestiti__mobile__text {
     border-top: none;
@@ -832,4 +839,8 @@ header .header__items p {
 
 .no-border {
   border-top: none;
+}
+
+.open {
+  display: flex;
 }

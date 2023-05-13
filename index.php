@@ -7,11 +7,11 @@
             <h1>Ciao, mi chiamo Emma.</h1>
             <p>Sono una visual designer e questi sono alcuni</p>
             <p>dei miei lavori. I miei amici mi hanno chiesto di disegnare una</p>
-            <p> <a href="#" class="home__text__link maglietta-toggle"> maglietta.</a> Abbiamo anche organizzato un <a href="#" class="home__text__link toggle">risotto party.</a> La mia ricerca</p>
-            <p> sull'affascinante mondo dei colori ha dato frutto ad un libro,un <a href="#" class="home__text__link toggle">poster</a>,</p>
-            <p> alcune <a href="#" class="home__text__link toggle">cartoline</a> e un <a href="#" class="home__text__link toggle">installazione audiovisiva</a></p>
+            <p> <a href="#" class="home__text__link maglietta-toggle"> maglietta.</a> Abbiamo anche organizzato un <a href="#" class="home__text__link risotto-toggle">risotto party.</a> La mia ricerca</p>
+            <p> sull'affascinante mondo dei colori ha dato frutto ad un libro,un <a href="#" class="home__text__link poster-toggle">poster</a>,</p>
+            <p> alcune <a href="#" class="home__text__link cartoline-toggle">cartoline</a> e un <a href="#" class="home__text__link video-toggle">installazione audiovisiva</a></p>
             <p>Come ultima cosa, ho collaborato con</p>
-            <p> un negozio di vestiti magico.</p>
+            <p> un <a href="#vestiti__mobile" class="home__text__link vestiti-toggle">negozio di vestiti</a> magico.</p>
         </div>
     </section>
     <section class="home__mobile">
@@ -44,8 +44,10 @@
             <p>Giugno 2022</p>
         </div>
         <div class="maglietta__mobile__image">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdavanti-copia-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockup-taglio-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdietro-scaled.jpg" alt="">
+
         </div>
     </section>
 
@@ -58,8 +60,8 @@
             <p>Agosto 2022</p>
         </div>
         <div class="risotto__mobile__image">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/BIANCORISO.png" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/risonerobiancoriso-scaled.jpg" alt="">
         </div>
     </section>
 
@@ -71,7 +73,7 @@
             <p>Sullo sfondo si leggono le tre definizioni del colore: il suo nome, la sua poesia e la sua immagine sotto forma di codice.</p>
         </div>
         <div class="poster__mobile__image">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockup-poster-copia-scaled.jpg" alt="">
         </div>
         <div class="poster__mobile__text no-border">
             <h2 class="poster__mobile__text__title">KARAOKE NIGHT</h2>
@@ -91,9 +93,11 @@
             <p>Le frasi e le parole sono frutto della fusione del ricordo con l’interpretazione dell’AI</p>
         </div>
         <div class="cartoline__mobile__image">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram4-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram3-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram2-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram-scaled.jpg" alt="">
+
         </div>
     </section>
 
@@ -108,9 +112,9 @@
             <p>Zurigo, dicembre 2022</p>
         </div>
         <div class="video__mobile__image">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto1-mostra.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/IMG_4616-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/IMG_4614-scaled.jpg" alt="">
         </div>
     </section>
 
@@ -122,9 +126,9 @@
             <p>I simboli scelti richiamano il ciclo lunare e solare che vengono utilizzati come metafora tra anzianità e giovinezza.</p>
         </div>
         <div class="vestiti__mobile__image">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/MOCKUP-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/etichetta-di-abbigliamento-vuota-per-il-business-della-moda-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/DSC_2026-copia-scaled.jpg" alt="">
         </div>
     </section>
 
