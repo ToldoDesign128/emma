@@ -130,15 +130,17 @@ ul {
 
 @font-face {
   font-family: "Minipax";
+  font-style: normal;
   font-weight: 500;
   src: url("/assets/font/Minipax-Regular.eot");
-  src: url("/assets/font/Minipax-Regular.woff") format("woff"), url("/assets/font/Minipax-Regular.woff2") format("woff2");
+  src: local(""), url("/assets/font/Minipax-Regular.woff") format("woff"), url("/assets/font/Minipax-Regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "Minipax";
+  font-style: normal;
   font-weight: 800;
   src: url("/assets/font/Minipax-SemiBold.eot");
-  src: url("/assets/font/Minipax-SemiBold.woff") format("woff"), url("/assets/font/Minipax-SemiBold.woff2") format("woff2");
+  src: local(""), url("/assets/font/Minipax-SemiBold.woff") format("woff"), url("/assets/font/Minipax-SemiBold.woff2") format("woff2");
 }
 h1,
 h2,
@@ -214,13 +216,19 @@ h5 {
 }
 
 h6 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 2rem;
   font-weight: 300;
 }
+@media (max-width: 992px) {
+  h6 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+}
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.8rem;
   font-weight: 500;
 }
@@ -278,7 +286,6 @@ a:focus-visible {
   z-index: 9999;
   transform: translate(-0.8rem, -0.8rem);
   pointer-events: none;
-  transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .cursor.hover {
   width: 20rem;
@@ -449,7 +456,7 @@ header .header__items p {
   background: #fff;
   border: 1px solid #ff6600;
   border-radius: 5rem;
-  font-family: "Minipax", "Times New Roman", Times, serif;
+  font-family: "Minipax", serif;
   font-weight: 500;
 }
 @media (max-width: 992px) {
@@ -681,7 +688,7 @@ header .header__items p {
 .cartoline__mobile__text__title,
 .video__mobile__text__title,
 .vestiti__mobile__text__title {
-  font-family: "Minipax", "Times New Roman", Times, serif;
+  font-family: "Minipax", serif;
   font-weight: 800;
 }
 .maglietta__mobile__text p,
@@ -690,7 +697,7 @@ header .header__items p {
 .cartoline__mobile__text p,
 .video__mobile__text p,
 .vestiti__mobile__text p {
-  font-family: "Minipax", "Times New Roman", Times, serif;
+  font-family: "Minipax", serif;
   font-weight: 500;
   margin: 2rem 0;
 }

@@ -13,11 +13,11 @@
     border-top: 1px solid black;
 
     &__title {
-      font-family: "Minipax", "Times New Roman", Times, serif;
+      font-family: $secondary-font;
       font-weight: 800;
     }
     p {
-      font-family: "Minipax", "Times New Roman", Times, serif;
+      font-family: $secondary-font;
       font-weight: 500;
       margin: 2rem 0;
     }

@@ -89,7 +89,7 @@
                 background: #fff;
                 border: 1px solid #ff6600;
                 border-radius: 5rem;
-                font-family: 'Minipax', 'Times New Roman', Times, serif;
+                font-family: $secondary-font;
                 font-weight: 500;
 
                 @media #{$tablet} {

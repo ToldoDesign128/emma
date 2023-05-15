@@ -10,7 +10,6 @@
     z-index: 9999;
     transform: translate(-.8rem, -.8rem);
     pointer-events: none;
-    transition: all 0.6s cubic-bezier(.215, .61, .355, 1);
 
     &.hover{    
         width: 20rem;

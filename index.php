@@ -8,7 +8,7 @@
             <p>Sono una visual designer e questi sono alcuni</p>
             <p>dei miei lavori. I miei amici mi hanno chiesto di disegnare una</p>
             <p> <a href="#" class="home__text__link maglietta-toggle"> maglietta.</a> Abbiamo anche organizzato un <a href="#" class="home__text__link risotto-toggle">risotto party.</a> La mia ricerca</p>
-            <p> sull'affascinante mondo dei colori ha dato frutto ad un libro,un <a href="#" class="home__text__link poster-toggle">poster</a>,</p>
+            <p> sull'affascinante mondo dei colori ha dato frutto ad un libro,alcuni <a href="#" class="home__text__link poster-toggle">poster</a>,</p>
             <p> alcune <a href="#" class="home__text__link cartoline-toggle">cartoline</a> e un <a href="#" class="home__text__link video-toggle">installazione audiovisiva</a></p>
             <p>Come ultima cosa, ho collaborato con</p>
             <p> un <a href="#vestiti__mobile" class="home__text__link vestiti-toggle">negozio di vestiti</a> magico.</p>
@@ -39,14 +39,14 @@
     <!-- Maglietta Mobile -->
     <section id="maglietta__mobile" class="maglietta__mobile toggle-items">
         <div class="maglietta__mobile__text">
-            <h2 class="maglietta__mobile__text__title">Maglietta__mobile | IBDS</h2>
+            <h2 class="maglietta__mobile__text__title">Maglietta | IBDS</h2>
             <p>Questa maglietta__mobile nasce dall’idea di identificare un gruppo di amici che si conosce ormai da anni. Cosa gli accomuna? Il Campari naturalmente.</p>
             <p>Giugno 2022</p>
         </div>
         <div class="maglietta__mobile__image">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdavanti-copia-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockup-taglio-scaled.jpg" alt="">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdietro-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockup-taglio-scaled.jpg" alt="">
 
         </div>
     </section>
@@ -73,7 +73,7 @@
             <p>Sullo sfondo si leggono le tre definizioni del colore: il suo nome, la sua poesia e la sua immagine sotto forma di codice.</p>
         </div>
         <div class="poster__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockup-poster-copia-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster8.jpg" alt="">
         </div>
         <div class="poster__mobile__text no-border">
             <h2 class="poster__mobile__text__title">KARAOKE NIGHT</h2>
@@ -81,7 +81,7 @@
             <p>Il visual geometrico interpreta l’innalzamento del tono di voce tipico degli eventi con questo tema.</p>
         </div>
         <div class="poster__mobile__image">
-            <img loading="lazy" src="http://emma.local/wp-content/uploads/2023/04/maglietta-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster-karaoke2-scaled.jpg" alt="">
         </div>
     </section>
 
@@ -127,8 +127,8 @@
         </div>
         <div class="vestiti__mobile__image">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/MOCKUP-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/etichetta-di-abbigliamento-vuota-per-il-business-della-moda-scaled.jpg" alt="">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/DSC_2026-copia-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-15-at-12.32.10.jpeg" alt="">
         </div>
     </section>
 
