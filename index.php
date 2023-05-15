@@ -60,7 +60,7 @@
             <p>Agosto 2022</p>
         </div>
         <div class="risotto__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/BIANCORISO.png" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/LOCANDINA-RISOTTATA-22_page-0001-scaled.jpg" alt="">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/risonerobiancoriso-scaled.jpg" alt="">
         </div>
     </section>
@@ -95,8 +95,8 @@
         <div class="cartoline__mobile__image">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram4-scaled.jpg" alt="">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram3-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram2-scaled.jpg" alt="">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram2-scaled.jpg" alt="">
 
         </div>
     </section>
