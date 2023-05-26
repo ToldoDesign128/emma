@@ -15,12 +15,15 @@
     &__title {
       font-family: $primary-font;
       font-weight: 800;
+      text-decoration: underline;      
+      color: #ff6600;
 
       .pallina{
         height: 5px;
         width: 5px;
         border-radius: 100px;
         margin-bottom: 5px;
+        background-color: #ff6600;
     }
     }
     p {
