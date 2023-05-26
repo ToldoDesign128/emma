@@ -13,7 +13,7 @@
 <body>
 <header>
     <div class="header">
-        <div class="header__items"><p>Emma Scala | Visual designer</p></div>
+        <div class="header__items"><p>Emma Scala <span class="pallina"></span> Visual designer</p></div>
     </div>
 </header>
 

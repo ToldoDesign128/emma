@@ -8,27 +8,27 @@
             <p>Sono una visual designer e questi sono alcuni</p>
             <p>dei miei lavori. I miei amici mi hanno chiesto di disegnare una</p>
             <p> <a href="#" class="home__text__link maglietta-toggle"> maglietta.</a> Abbiamo anche organizzato un <a href="#" class="home__text__link risotto-toggle">risotto party.</a> La mia ricerca</p>
-            <p> sull'affascinante mondo dei colori ha dato frutto ad un libro,alcuni <a href="#" class="home__text__link poster-toggle">poster</a>,</p>
-            <p> alcune <a href="#" class="home__text__link cartoline-toggle">cartoline</a> e un <a href="#" class="home__text__link video-toggle">installazione audiovisiva</a></p>
-            <p>Come ultima cosa, ho collaborato con</p>
-            <p> un <a href="#vestiti__mobile" class="home__text__link vestiti-toggle">negozio di vestiti</a> magico.</p>
+            <p> sull'affascinante mondo dei colori ha dato frutto ad un libro</p>
+            <p> delle <a href="#" class="home__text__link cartoline-toggle">cartoline</a> e un'<a href="#" class="home__text__link video-toggle">installazione audiovisiva</a></p>
+            <p>Inoltre, ho realizzato alcuni <a href="#" class="home__text__link poster-toggle">poster</a> e ho collaborato con </p>
+            <p> un <a href="#vestiti__mobile" class="home__text__link vestiti-toggle">negozio di vestiti</a>.</p>
         </div>
     </section>
     <section class="home__mobile">
         <div class="home__mobile__text">
-            <p>Ciao, mi chiamo Emma. <br> Sono una visual designer e questi sono alcuni dei miei lavori. I miei amici mi hanno chiesto di disegnare una <a href="#maglietta__mobile"> maglietta.</a> Abbiamo anche organizzato un <a href="#risotto__mobile">risotto party.</a> La mia ricerca sull'affascinante mondo dei colori ha dato frutto ad un libro,un <a href="#poster__mobile">poster</a>, alcune <a href="#cartoline__mobile">cartoline</a> e un <a href="#video__mobile">installazione audiovisiva.</a> Come ultima cosa, ho collaborato con un <a href="#vestiti__mobile">negozio di vestiti</a> magico.</p>
+            <p>Ciao, mi chiamo Emma. <br> Sono una visual designer e questi sono alcuni dei miei lavori. <br><br> I miei amici mi hanno chiesto di disegnare una <a href="#maglietta__mobile"> maglietta<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdietro-scaled.jpg);"></span>.</a> Abbiamo anche organizzato un <a href="#risotto__mobile">risotto party<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/LOCANDINA-RISOTTATA-22_page-0001-scaled.jpg);"></span>.</a> La mia ricerca sull'affascinante mondo dei colori ha dato frutto ad un libro, delle <a href="#cartoline__mobile">cartoline<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram3-scaled.jpg);"></span></a> e un'<a href="#video__mobile">installazione audiovisiva<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/IMG_4614-scaled.jpg);"></span>.</a> Inoltre, ho realizzato alcuni <a href="#poster__mobile">poster<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster8.jpg);"></span></a> e ho collaborato con un <a href="#vestiti__mobile">negozio di vestiti<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/DSC_2026-copia-scaled.jpg);"></span></a>.</p>
         </div>
     </section>
     <section class="animation">
         <div class="animation__box">
             <div class="animation__box__1">
-                <h5>grafica editoriale | brand identity | promozione eventi | installazioni</h5>
+                <h5>grafica editoriale <span class="pallina"></span> brand identity <span class="pallina"></span> promozione eventi <span class="pallina"></span> installazioni</h5>
             </div>
             <div class="animation__box__2">
-                <h5>BA | Design del prodotto e della comunicazione | IUAV Università di Venezia</h5>
+                <h5>BA<span class="pallina"></span> IUAV Università di Venezia</h5>
             </div>
             <div class="animation__box__3">
-                <h5>MA | Visual Communication | Zürcher Hochschule der Künste</h5>
+                <h5>MA <span class="pallina"></span> Visual Communication <span class="pallina"></span> Zürcher Hochschule der Künste</h5>
             </div>
             <div class="animation__box__4">
                 <h5>Vivo a Mori ma al momento mi trovo a Zurigo.</h5>
@@ -39,9 +39,9 @@
     <!-- Maglietta Mobile -->
     <section id="maglietta__mobile" class="maglietta__mobile toggle-items">
         <div class="maglietta__mobile__text">
-            <h2 class="maglietta__mobile__text__title">Maglietta | IBDS</h2>
+            <h2 class="maglietta__mobile__text__title">Maglietta <span class="pallina"></span> IBDS</h2>
             <p>Questa maglietta__mobile nasce dall’idea di identificare un gruppo di amici che si conosce ormai da anni. Cosa gli accomuna? Il Campari naturalmente.</p>
-            <p>Giugno 2022</p>
+            <p>Spiazzi <span class="pallina"></span> VR <span class="pallina"></span>, Giugno 2022</p>
         </div>
         <div class="maglietta__mobile__image">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdavanti-copia-scaled.jpg" alt="">
@@ -54,7 +54,7 @@
     <!-- Risotto Mobile -->
     <section id="risotto__mobile" class="risotto__mobile toggle-items">
         <div class="risotto__mobile__text">
-            <h2 class="risotto__mobile__text__title">RIOSTTO PARTY | RISOTTATA DAL ROMANO</h2>
+            <h2 class="risotto__mobile__text__title">RIOSTTO PARTY <span class="pallina"></span> RISOTTATA DAL ROMANO</h2>
             <p>In un momento conviviale cosa c'è di meglio di una forchettata di risotto e un bicchiere di vino?</p>
             <p>Per esaltare le prelibatezze della tradizione culinaria veneta, ho utilizzato un visual astratto e moderno che allude alla pietanza e all'effetto provocato dal vino.</p>
             <p>Agosto 2022</p>
@@ -104,7 +104,7 @@
     <!-- Video -->
     <section id="video__mobile" class="video__mobile toggle-items">
         <div class="video__mobile__text">
-            <h2 class="video__mobile__text__title">EXHIBITION | SPEAKING THE SEEN</h2>
+            <h2 class="video__mobile__text__title">EXHIBITION <span class="pallina"></span> SPEAKING THE SEEN</h2>
             <p>Il colore è una questione di sensazioni, sentimenti, ricordi e connessioni logiche.</p>
             <p>L'esplorazione lo separa in due livelli di astrazione: uno riguarda le parole e il secondo le immagini. In questa mostra le fotografie sono utilizzate per illustrare e visualizzare i colori, mentre le parole sono il frutto di una prospettiva individuale ambigua e non univoca.</p>
             <p>Le immagini sono state scattate nella città di Zurigo e simboleggiano l'ordinaria scena dei colori, mentre l'audio letto dall'intelligenza artificiale rappresenta l'arbitrarietà della denominazione dei colori.</p>

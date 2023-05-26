@@ -1,4 +1,5 @@
 @import url(https://fonts.cdnfonts.com/css/circular-std);
+@import url(https://fonts.googleapis.com/css2?family=Playfair:wght@400;600&display=swap);
 /*
 Theme Name: Emma
 Theme URI: https://wordpress.org/themes/twentytwenty/
@@ -84,7 +85,6 @@ video {
 }
 
 html {
-  background: #fff;
   font-size: 62.5%;
 }
 
@@ -128,20 +128,6 @@ ul {
   background-color: black;
 }
 
-@font-face {
-  font-family: "Minipax";
-  font-style: normal;
-  font-weight: 500;
-  src: url("/assets/font/Minipax-Regular.eot");
-  src: local(""), url("/assets/font/Minipax-Regular.woff") format("woff"), url("/assets/font/Minipax-Regular.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Minipax";
-  font-style: normal;
-  font-weight: 800;
-  src: url("/assets/font/Minipax-SemiBold.eot");
-  src: local(""), url("/assets/font/Minipax-SemiBold.woff") format("woff"), url("/assets/font/Minipax-SemiBold.woff2") format("woff2");
-}
 h1,
 h2,
 h3,
@@ -314,6 +300,11 @@ footer .contact {
   justify-content: space-between;
   padding: 0 2rem;
 }
+footer .contact .pallina {
+  height: 4px;
+  width: 4px;
+  margin-bottom: 2px;
+}
 @media (max-width: 768px) {
   footer .contact {
     flex-direction: column;
@@ -376,19 +367,22 @@ header .header__items p {
   text-align: center;
   z-index: 1;
 }
-.home__text p, .home__text a {
+.home__text p,
+.home__text a {
   font-size: 3.4rem;
   line-height: 4.4rem;
   font-weight: 300;
 }
 @media (max-width: 1200px) {
-  .home__text p, .home__text a {
+  .home__text p,
+  .home__text a {
     font-size: 3rem;
     line-height: 4rem;
   }
 }
 @media (max-width: 992px) {
-  .home__text p, .home__text a {
+  .home__text p,
+  .home__text a {
     font-size: 2.2rem;
     line-height: 3.4rem;
   }
@@ -406,10 +400,25 @@ header .header__items p {
 .home__mobile__text {
   text-align: left;
 }
-.home__mobile__text p, .home__mobile__text a {
+.home__mobile__text p,
+.home__mobile__text a {
   font-size: 2.8rem;
   line-height: 3.2rem;
   font-weight: 300;
+}
+.home__mobile__text a {
+  position: relative;
+}
+.home__mobile__text__image {
+  display: inline-block;
+  position: absolute;
+  z-index: -10;
+  left: 70%;
+  top: -30%;
+  height: 5rem;
+  width: 5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 @media (max-width: 768px) {
   .home__mobile {
@@ -436,6 +445,7 @@ header .header__items p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: -10;
 }
 .animation__box {
   position: relative;
@@ -456,13 +466,24 @@ header .header__items p {
   background: #fff;
   border: 1px solid #ff6600;
   border-radius: 5rem;
-  font-family: "Minipax", serif;
+  font-family: "Playfair", serif;
   font-weight: 500;
 }
 @media (max-width: 992px) {
   .animation__box__1 h5, .animation__box__2 h5, .animation__box__3 h5, .animation__box__4 h5 {
-    padding: 0.4rem 1.8rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    background: none;
+    line-height: 1;
   }
+}
+.animation__box__1 .pallina, .animation__box__2 .pallina, .animation__box__3 .pallina, .animation__box__4 .pallina {
+  background: #ff6600;
+  height: 3px;
+  width: 3px;
+  border-radius: 100px;
+  margin-bottom: 2px;
 }
 .animation__box__1 {
   top: 20%;
@@ -506,6 +527,22 @@ header .header__items p {
     }
     50% {
       left: 30%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .animation__box__1 {
+    top: 0%;
+  }
+  @keyframes uno {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 0%;
     }
     100% {
       left: 0%;
@@ -557,6 +594,23 @@ header .header__items p {
     }
   }
 }
+@media (max-width: 768px) {
+  .animation__box__2 {
+    top: 7%;
+    left: 0%;
+  }
+  @keyframes due {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 0%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+}
 .animation__box__3 {
   top: 55%;
   left: 20%;
@@ -602,6 +656,23 @@ header .header__items p {
     }
     100% {
       left: 35%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .animation__box__3 {
+    top: 22%;
+    left: 0%;
+  }
+  @keyframes tre {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 0%;
+    }
+    100% {
+      left: 0%;
     }
   }
 }
@@ -654,13 +725,34 @@ header .header__items p {
   }
 }
 @media (max-width: 768px) {
-  .animation {
-    display: none;
+  .animation__box__4 {
+    top: 58%;
+    left: 0%;
+  }
+  @keyframes quattro {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 0%;
+    }
+    100% {
+      left: 0%;
+    }
   }
 }
 
 .open {
   display: block;
+}
+
+.pallina {
+  display: inline-block;
+  background: black;
+  height: 5px;
+  width: 5px;
+  border-radius: 100px;
+  margin-bottom: 3px;
 }
 
 .maglietta__mobile,
@@ -688,8 +780,19 @@ header .header__items p {
 .cartoline__mobile__text__title,
 .video__mobile__text__title,
 .vestiti__mobile__text__title {
-  font-family: "Minipax", serif;
+  font-family: "Circular Std", sans-serif;
   font-weight: 800;
+}
+.maglietta__mobile__text__title .pallina,
+.risotto__mobile__text__title .pallina,
+.poster__mobile__text__title .pallina,
+.cartoline__mobile__text__title .pallina,
+.video__mobile__text__title .pallina,
+.vestiti__mobile__text__title .pallina {
+  height: 5px;
+  width: 5px;
+  border-radius: 100px;
+  margin-bottom: 5px;
 }
 .maglietta__mobile__text p,
 .risotto__mobile__text p,
@@ -697,7 +800,7 @@ header .header__items p {
 .cartoline__mobile__text p,
 .video__mobile__text p,
 .vestiti__mobile__text p {
-  font-family: "Minipax", serif;
+  font-family: "Circular Std", sans-serif;
   font-weight: 500;
   margin: 2rem 0;
 }

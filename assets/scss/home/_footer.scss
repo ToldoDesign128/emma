@@ -16,6 +16,12 @@ footer{
         align-items: center;
         justify-content: space-between;
         padding: 0 2rem;
+
+        .pallina{
+            height: 4px;
+            width: 4px;
+            margin-bottom: 2px;
+        }
         
         @media (max-width: 768px) {
             flex-direction: column;

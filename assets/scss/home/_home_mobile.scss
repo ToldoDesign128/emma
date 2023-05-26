@@ -13,11 +13,18 @@
     border-top: 1px solid black;
 
     &__title {
-      font-family: $secondary-font;
+      font-family: $primary-font;
       font-weight: 800;
+
+      .pallina{
+        height: 5px;
+        width: 5px;
+        border-radius: 100px;
+        margin-bottom: 5px;
+    }
     }
     p {
-      font-family: $secondary-font;
+      font-family: $primary-font;
       font-weight: 500;
       margin: 2rem 0;
     }

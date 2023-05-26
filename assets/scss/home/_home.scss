@@ -1,217 +1,386 @@
-.home{
-    padding: 0 2rem;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.home {
+  padding: 0 2rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-    &__text{
-        max-height: 50rem;
-        text-align: center;
-        z-index: 1;
+  &__text {
+    max-height: 50rem;
+    text-align: center;
+    z-index: 1;
 
-        p,a{
-            font-size: 3.4rem;
-            line-height: 4.4rem;
-            font-weight: 300;
+    p,
+    a {
+      font-size: 3.4rem;
+      line-height: 4.4rem;
+      font-weight: 300;
 
-            @media #{$small-desktop} {
-                font-size: 3rem;
-                line-height: 4rem;           
-            }
-            @media #{$tablet} {
-                font-size: 2.2rem;
-                line-height: 3.4rem;           
-            }
-        }
-        
-        @media #{$phone} {
-            display: none;            
-        }
-    }
-
-    &__mobile{
-        padding: 0 1rem;
-        display: none;
-        height: 100vh;
-
-        &__text{
-            text-align: left;
-    
-            p,a{
-                font-size: 2.8rem;
-                line-height: 3.2rem;
-                font-weight: 300;
-            }
-        }
-
-        @media #{$phone} {
-            display: flex; 
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;           
-        }
+      @media #{$small-desktop} {
+        font-size: 3rem;
+        line-height: 4rem;
+      }
+      @media #{$tablet} {
+        font-size: 2.2rem;
+        line-height: 3.4rem;
+      }
     }
 
     @media #{$phone} {
-        padding: 0;
-        height: auto;
+      display: none;
     }
-}
+  }
 
-.animation{
-    width: 100vw;
+  &__mobile {
+    padding: 0 1rem;
+    display: none;
     height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-    &__box{
+    &__text {
+      text-align: left;
+
+      p,
+      a {
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+        font-weight: 300;
+      }
+      a{
         position: relative;
-        height: 50rem;
-        width: 100%;
+      }
 
-        &__1, &__2, &__3, &__4{
-            position: absolute;
-            animation-duration: 15s;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-
-            h5{
-                width: fit-content;
-                padding: 0.6rem 2.4rem;
-                color: #ff6600;
-                background: #fff;
-                border: 1px solid #ff6600;
-                border-radius: 5rem;
-                font-family: $secondary-font;
-                font-weight: 500;
-
-                @media #{$tablet} {
-                    padding: 0.4rem 1.8rem;                    
-                }
-            }
-        }
-
-        &__1{
-            top: 20%;
-            left: 0%;  
-            animation-name: uno;
-            
-            @keyframes uno {
-                0% {left: 0%;}
-                50% {left: 40%;}
-                100% {left: 0%;}                
-            }
-            @media #{$small-desktop} {
-                top: 22%;
-                @keyframes uno {
-                    0% {left: 0%;}
-                    50% {left: 30%;}
-                    100% {left: 0%;}                
-                }              
-            }
-            @media #{$tablet} {
-                top: 16%;
-                @keyframes uno {
-                    0% {left: 0%;}
-                    50% {left: 30%;}
-                    100% {left: 0%;}                
-                }              
-            }
-        }
-        &__2{
-            top: 38%;
-            left: 60%;              
-            animation-name: due;
-            
-            @keyframes due {
-                0% {left: 50%;}
-                50% {left: 20%;}
-                100% {left: 50%;}                
-            }
-            @media #{$small-desktop} {
-                @keyframes due {
-                    0% {left: 22%;}
-                    50% {left: 4%;}
-                    100% {left: 22%;}                
-                }              
-            }
-            @media #{$tablet} {
-                top: 40%;
-                @keyframes due {
-                    0% {left: 30%;}
-                    50% {left: 10%;}
-                    100% {left: 30%;}                
-                }              
-            }
-        }
-        &__3{
-            top: 55%;
-            left: 20%; 
-            animation-name: tre;
-            
-            @keyframes tre {
-                0% {left: 20%;}
-                50% {left: 50%;}
-                100% {left: 20%;}                
-            }            
-            @media #{$small-desktop} {
-                top: 54%;
-                @keyframes tre {
-                    0% {left: 20%;}
-                    50% {left: 1%;}
-                    100% {left: 20%;}                
-                }              
-            }
-            @media #{$tablet} {
-                top: 61%;
-                @keyframes tre {
-                    0% {left: 35%;}
-                    50% {left: 0%;}
-                    100% {left: 35%;}                
-                }              
-            }
-        }
-        &__4{
-            top: 73%;
-            left: 50%;    
-            animation-name: quattro;
-            
-            @keyframes quattro {
-                0% {left: 50%;}
-                50% {left: 0%;}
-                100% {left: 50%;}                
-            }
-            @media #{$small-desktop} {
-                top: 71%;
-                @keyframes quattro {
-                    0% {left: 14%;}
-                    50% {left: 0%;}
-                    100% {left: 14%;}                
-                }              
-            }
-            @media #{$tablet} {
-                top: 78%;
-                @keyframes quattro {
-                    0% {left: 0%;}
-                    50% {left: 30%;}
-                    100% {left: 0%;}                
-                }              
-            }
-        }
+      &__image{
+        display: inline-block;
+        position: absolute;
+        z-index: -10;
+        left: 70%;
+        top: -30%;
+        height: 5rem;
+        width: 5rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
     }
 
     @media #{$phone} {
-        display: none;        
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
+  }
+
+  @media #{$phone} {
+    padding: 0;
+    height: auto;
+  }
 }
 
-.open{
-    display: block;
+.animation {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: -10;
+
+  &__box {
+    position: relative;
+    height: 50rem;
+    width: 100%;
+
+    &__1,
+    &__2,
+    &__3,
+    &__4 {
+      position: absolute;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+      h5 {
+        width: fit-content;
+        padding: 0.6rem 2.4rem;
+        color: #ff6600;
+        background: #fff;
+        border: 1px solid #ff6600;
+        border-radius: 5rem;
+        font-family: $secondary-font;
+        font-weight: 500;
+
+        @media #{$tablet} {
+          padding: .2rem .4rem;
+          border-radius: 3rem;
+          font-size: 1.2rem;
+          background: none;
+          line-height: 1;
+        }
+      }
+
+      .pallina {
+        background: #ff6600;
+        height: 3px;
+        width: 3px;
+        border-radius: 100px;
+        margin-bottom: 2px;
+      }
+    }
+
+    &__1 {
+      top: 20%;
+      left: 0%;
+      animation-name: uno;
+
+      @keyframes uno {
+        0% {
+          left: 0%;
+        }
+        50% {
+          left: 40%;
+        }
+        100% {
+          left: 0%;
+        }
+      }
+      @media #{$small-desktop} {
+        top: 22%;
+        @keyframes uno {
+          0% {
+            left: 0%;
+          }
+          50% {
+            left: 30%;
+          }
+          100% {
+            left: 0%;
+          }
+        }
+      }
+      @media #{$tablet} {
+        top: 16%;
+        @keyframes uno {
+          0% {
+            left: 0%;
+          }
+          50% {
+            left: 30%;
+          }
+          100% {
+            left: 0%;
+          }
+        }
+      }
+      @media #{$phone} {
+        top: 0%;
+        @keyframes uno {
+          0% {
+            left: 0%;
+          }
+          50% {
+            left: 0%;
+          }
+          100% {
+            left: 0%;
+          }
+        }
+      }
+    }
+    &__2 {
+      top: 38%;
+      left: 60%;
+      animation-name: due;
+
+      @keyframes due {
+        0% {
+          left: 50%;
+        }
+        50% {
+          left: 20%;
+        }
+        100% {
+          left: 50%;
+        }
+      }
+      @media #{$small-desktop} {
+        @keyframes due {
+          0% {
+            left: 22%;
+          }
+          50% {
+            left: 4%;
+          }
+          100% {
+            left: 22%;
+          }
+        }
+      }
+      @media #{$tablet} {
+        top: 40%;
+        @keyframes due {
+          0% {
+            left: 30%;
+          }
+          50% {
+            left: 10%;
+          }
+          100% {
+            left: 30%;
+          }
+        }
+      }
+      @media #{$phone} {
+        top: 7%;
+        left: 0%;
+        @keyframes due {
+          0% {
+            left: 0%;
+          }
+          50% {
+            left: 0%;
+          }
+          100% {
+            left: 0%;
+          }
+        }
+      }
+    }
+    &__3 {
+      top: 55%;
+      left: 20%;
+      animation-name: tre;
+
+      @keyframes tre {
+        0% {
+          left: 20%;
+        }
+        50% {
+          left: 50%;
+        }
+        100% {
+          left: 20%;
+        }
+      }
+      @media #{$small-desktop} {
+        top: 54%;
+        @keyframes tre {
+          0% {
+            left: 20%;
+          }
+          50% {
+            left: 1%;
+          }
+          100% {
+            left: 20%;
+          }
+        }
+      }
+      @media #{$tablet} {
+        top: 61%;
+        @keyframes tre {
+          0% {
+            left: 35%;
+          }
+          50% {
+            left: 0%;
+          }
+          100% {
+            left: 35%;
+          }
+        }
+      }
+      @media #{$phone} {
+        top: 22%;
+        left: 0%;
+        @keyframes tre {
+          0% {
+            left: 0%;
+          }
+          50% {
+            left: 0%;
+          }
+          100% {
+            left: 0%;
+          }
+        }
+      }
+    }
+    &__4 {
+      top: 73%;
+      left: 50%;
+      animation-name: quattro;
+
+      @keyframes quattro {
+        0% {
+          left: 50%;
+        }
+        50% {
+          left: 0%;
+        }
+        100% {
+          left: 50%;
+        }
+      }
+      @media #{$small-desktop} {
+        top: 71%;
+        @keyframes quattro {
+          0% {
+            left: 14%;
+          }
+          50% {
+            left: 0%;
+          }
+          100% {
+            left: 14%;
+          }
+        }
+      }
+      @media #{$tablet} {
+        top: 78%;
+        @keyframes quattro {
+          0% {
+            left: 0%;
+          }
+          50% {
+            left: 30%;
+          }
+          100% {
+            left: 0%;
+          }
+        }
+      }
+      @media #{$phone} {
+        top: 58%;
+        left: 0%;
+        @keyframes quattro {
+          0% {
+            left: 0%;
+          }
+          50% {
+            left: 0%;
+          }
+          100% {
+            left: 0%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.open {
+  display: block;
+}
+
+.pallina {
+  display: inline-block;
+  background: black;
+  height: 5px;
+  width: 5px;
+  border-radius: 100px;
+  margin-bottom: 3px;
 }
