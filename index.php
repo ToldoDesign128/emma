@@ -16,7 +16,7 @@
     </section>
     <section class="home__mobile">
         <div class="home__mobile__text">
-            <p>Ciao, mi chiamo Emma. <br> Sono una visual designer<br> e questi sono alcuni<br> dei miei lavori. <br><br> I miei amici mi hanno<br> chiesto di disegnare una<br> <a href="#maglietta__mobile"> maglietta<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdietro-scaled.jpg);"></span>.</a> Abbiamo anche<br> organizzato un <a href="#risotto__mobile">risotto party<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/LOCANDINA-RISOTTATA-22_page-0001-scaled.jpg);"></span>.</a><br>La mia ricerca sull'affascinante<br> mondo dei colori ha dato frutto<br> ad un libro, delle <a href="#cartoline__mobile">cartoline<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram3-scaled.jpg);"></span></a> e <br> un'<a href="#video__mobile">installazione audiovisiva<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/IMG_4614-scaled.jpg);"></span>.</a> Inoltre, ho realizzato alcuni<br> <a href="#poster__mobile">poster<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster8.jpg);"></span></a> e ho collaborato<br> con un <a href="#vestiti__mobile">negozio di vestiti<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/DSC_2026-copia-scaled.jpg);"></span></a>.</p>
+            <p>Ciao, mi chiamo Emma. <br> Sono una visual designer<br> e questi sono alcuni<br> dei miei lavori.<br> <span class="spacer"></span> I miei amici mi hanno<br> chiesto di disegnare una<br> <a href="#maglietta__mobile"> maglietta<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdietro-scaled.jpg);"></span>.</a> Abbiamo anche<br> organizzato un <a href="#risotto__mobile">risotto party<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/LOCANDINA-RISOTTATA-22_page-0001-scaled.jpg);"></span>.</a><br>La mia ricerca sull'affascinante<br> mondo dei colori ha dato frutto<br> ad un libro, delle <a href="#cartoline__mobile">cartoline<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram3-scaled.jpg);"></span></a> e <br> un'<a href="#video__mobile">installazione audiovisiva<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/IMG_4614-scaled.jpg);"></span>.</a> <br>Inoltre, ho realizzato alcuni <a href="#poster__mobile">poster<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster8.jpg);"></span></a> e ho collaborato<br> con un <a href="#vestiti__mobile">negozio di vestiti<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/DSC_2026-copia-scaled.jpg);"></span></a>.</p>
         </div>
     </section>
     <section class="animation">
@@ -61,7 +61,7 @@
         </div>
         <div class="risotto__mobile__image">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/LOCANDINA-RISOTTATA-22_page-0001-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/risonerobiancoriso-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/06/NERORISO.png" alt="">
         </div>
     </section>
 
@@ -91,6 +91,7 @@
             <h2 class="cartoline__mobile__text__title">READ MY MEMORIES</h2>
             <p>Con l’ausilio dell’intelligenza artificiale ho trasformato i miei ricordi fotografici in immagini distorte.</p>
             <p>Le frasi e le parole sono frutto della fusione del ricordo con l’interpretazione dell’AI</p>
+            <p>Dicembre 2022</p>
         </div>
         <div class="cartoline__mobile__image">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram4-scaled.jpg" alt="">
@@ -109,7 +110,7 @@
             <p>L'esplorazione lo separa in due livelli di astrazione: uno riguarda le parole e il secondo le immagini. In questa mostra le fotografie sono utilizzate per illustrare e visualizzare i colori, mentre le parole sono il frutto di una prospettiva individuale ambigua e non univoca.</p>
             <p>Le immagini sono state scattate nella città di Zurigo e simboleggiano l'ordinaria scena dei colori, mentre l'audio letto dall'intelligenza artificiale rappresenta l'arbitrarietà della denominazione dei colori.</p>
             <p>La combinazione di questi due livelli evidenzia come la percezione dell'osservatore cambia ed influenzi la scelta dei nomi dei colori.</p>
-            <p>Zurigo, dicembre 2022</p>
+            <p>Zurigo, Dicembre 2022</p>
         </div>
         <div class="video__mobile__image">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto1-mostra.jpg" alt="">
@@ -121,9 +122,10 @@
     <!-- Vestiti -->
     <section id="vestiti__mobile" class="vestiti__mobile toggle-items">
         <div class="vestiti__mobile__text">
-            <h2 class="vestiti__mobile__text__title">INCANTESIMI</h2>
+            <h2 class="vestiti__mobile__text__title">NEGOZIO DI VESTITI <span class="pallina"></span> INCANTESIMI</h2>
             <p>Brand identity e poster di apertura per un nuovo negozio di abbigliamento di San Massimo (VR).</p>
             <p>I simboli scelti richiamano il ciclo lunare e solare che vengono utilizzati come metafora tra anzianità e giovinezza.</p>
+            <p>Giugno 2022</p>
         </div>
         <div class="vestiti__mobile__image">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/MOCKUP-scaled.jpg" alt="">

@@ -46,8 +46,14 @@
         line-height: 2.8rem;
         font-weight: 300;
       }
-      a{
+      a {
         position: relative;
+        transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+        color: black;
+      
+        &:hover {
+          color: black;
+        }
       }
 
       &__image{
