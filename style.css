@@ -959,6 +959,9 @@ header .header__items p {
   }
 }
 
+.vestiti__mobile {
+  margin-bottom: 15rem;
+}
 @media (min-width: 992px) {
   .vestiti__mobile {
     display: none;

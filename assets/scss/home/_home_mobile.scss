@@ -173,6 +173,7 @@
   }
 }
 .vestiti__mobile {
+  margin-bottom: 15rem;
   @media #{$only-mobile} {
     display: none;
     z-index: 10;
