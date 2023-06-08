@@ -8,7 +8,7 @@
             <p>Sono una visual designer e questi sono alcuni</p>
             <p>dei miei lavori. I miei amici mi hanno chiesto di disegnare una</p>
             <p> <a href="#" class="home__text__link maglietta-toggle"> maglietta.</a> Abbiamo anche organizzato un <a href="#" class="home__text__link risotto-toggle">risotto party.</a> La mia ricerca</p>
-            <p> sull'affascinante mondo dei colori ha dato frutto ad un libro</p>
+            <p> sull'affascinante mondo dei colori ha dato frutto ad un <a href="#" class="home__text__link libro-toggle">libro</a></p>
             <p> delle <a href="#" class="home__text__link cartoline-toggle">cartoline</a> e un'<a href="#" class="home__text__link video-toggle">installazione audiovisiva</a></p>
             <p>Inoltre, ho realizzato alcuni <a href="#" class="home__text__link poster-toggle">poster</a> e ho collaborato con </p>
             <p> un <a href="#vestiti__mobile" class="home__text__link vestiti-toggle">negozio di vestiti</a>.</p>
@@ -16,7 +16,7 @@
     </section>
     <section class="home__mobile">
         <div class="home__mobile__text">
-            <p>Ciao, mi chiamo Emma. <br> Sono una visual designer<br> e questi sono alcuni<br> dei miei lavori.<br> <span class="spacer"></span> I miei amici mi hanno<br> chiesto di disegnare una<br> <a href="#maglietta__mobile"> maglietta<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdietro-scaled.jpg);"></span>.</a> Abbiamo anche<br> organizzato un <a href="#risotto__mobile">risotto party<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/LOCANDINA-RISOTTATA-22_page-0001-scaled.jpg);"></span>.</a><br>La mia ricerca sull'affascinante<br> mondo dei colori ha dato frutto<br> ad un libro, delle <a href="#cartoline__mobile">cartoline<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram3-scaled.jpg);"></span></a> e <br> un'<a href="#video__mobile">installazione audiovisiva<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/IMG_4614-scaled.jpg);"></span>.</a> <br>Inoltre, ho realizzato alcuni <a href="#poster__mobile">poster<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster8.jpg);"></span></a> e ho collaborato<br> con un <a href="#vestiti__mobile">negozio di vestiti<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/DSC_2026-copia-scaled.jpg);"></span></a>.</p>
+            <p>Ciao, mi chiamo Emma. <br> Sono una visual designer<br> e questi sono alcuni<br> dei miei lavori.<br> <span class="spacer"></span> I miei amici mi hanno<br> chiesto di disegnare una<br> <a href="#maglietta__mobile"> maglietta<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdietro-scaled.jpg);"></span>.</a> Abbiamo anche<br> organizzato un <a href="#risotto__mobile">risotto party<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/LOCANDINA-RISOTTATA-22_page-0001-scaled.jpg);"></span>.</a><br>La mia ricerca sull'affascinante<br> mondo dei colori ha dato frutto<br> ad un <a href="#risotto__mobile">libro<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdietro-scaled.jpg);"></span></a>, delle <a href="#cartoline__mobile">cartoline<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram3-scaled.jpg);"></span></a> e <br> un'<a href="#video__mobile">installazione audiovisiva<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/IMG_4614-scaled.jpg);"></span>.</a> <br>Inoltre, ho realizzato alcuni <br><a href="#poster__mobile">poster<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster8.jpg);"></span></a> e ho collaborato<br> con un <a href="#vestiti__mobile">negozio di vestiti<span class="home__mobile__text__image" style="background-image: url(http://sergiom109.sg-host.com/wp-content/uploads/2023/05/DSC_2026-copia-scaled.jpg);"></span></a>.</p>
         </div>
     </section>
     <section class="animation">
@@ -62,6 +62,24 @@
         <div class="risotto__mobile__image">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/LOCANDINA-RISOTTATA-22_page-0001-scaled.jpg" alt="">
             <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/06/NERORISO.png" alt="">
+        </div>
+    </section>
+
+    <!-- Libro Mobile -->
+    <section id="libro__mobile" class="libro__mobile toggle-items">
+        <div class="libro__mobile__text">
+            <h2 class="libro__mobile__text__title">LIBRO <span class="pallina"></span> COLOUR AS WORD, STORY, IMAGE.</h2>
+            <p>Colours are a matter of sensations, feelings, memories, and logical connections</p>
+            <p>Even if not always directly, human beings are aware of the presence of precise colour codes that are used in everyday situations.</p> 
+            <p>Therefore, there is an agreement on the correct use of traffic lights, road signs and so on.</p>
+            <p>Colours are always influenced by context, but personal and emotional thoughts tend to predominate when it comes to the way people speak and imagine colours.</p>
+            <p>This thesis delves into the complex and fascinating topic of colour naming. It explores how people name colours by studying the contexts in which they use colour terms and analysing how these situations may affect the linguistic definition of colours.</p>
+            <p>Zurigo, VC MA Thesis ZHDK 2023</p>
+        </div>
+        <div class="libro__mobile__image">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/06/1-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/06/4-scaled.jpg" alt="">
+            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/06/3-scaled.jpg" alt="">
         </div>
     </section>
 

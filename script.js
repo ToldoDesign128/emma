@@ -65,6 +65,25 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+// Libro
+document.addEventListener("DOMContentLoaded", function() {
+  // Aggiungi un listener per il clic sull'elemento con classe "libro-toggle"
+  var toggleElement = document.getElementsByClassName("libro-toggle")[0];
+  toggleElement.addEventListener("click", function(event) {
+    // Aggiungi la classe "open" all'elemento con id "libro__mobile"
+    var mobileElement = document.getElementById("libro__mobile");
+    mobileElement.classList.add("open");
+    event.stopPropagation(); // Impedisci la propagazione del clic agli altri elementi
+  });
+
+  // Aggiungi un listener per il clic in qualsiasi punto dello schermo
+  document.addEventListener("click", function() {
+    // Rimuovi la classe "open" dall'elemento con id "libro__mobile"
+    var mobileElement = document.getElementById("libro__mobile");
+    mobileElement.classList.remove("open");
+  });
+});
+
 // Poster
 document.addEventListener("DOMContentLoaded", function() {
   // Aggiungi un listener per il clic sull'elemento con classe "poster-toggle"

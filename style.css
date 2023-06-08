@@ -219,9 +219,11 @@ h6 {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.8rem;
   font-weight: 500;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 a {
@@ -754,6 +756,7 @@ header .header__items p {
 
 .maglietta__mobile,
 .risotto__mobile,
+.libro__mobile,
 .poster__mobile,
 .cartoline__mobile,
 .video__mobile,
@@ -764,6 +767,7 @@ header .header__items p {
 }
 .maglietta__mobile__text,
 .risotto__mobile__text,
+.libro__mobile__text,
 .poster__mobile__text,
 .cartoline__mobile__text,
 .video__mobile__text,
@@ -773,6 +777,7 @@ header .header__items p {
 }
 .maglietta__mobile__text__title,
 .risotto__mobile__text__title,
+.libro__mobile__text__title,
 .poster__mobile__text__title,
 .cartoline__mobile__text__title,
 .video__mobile__text__title,
@@ -780,10 +785,12 @@ header .header__items p {
   font-family: "Circular Std", sans-serif;
   font-weight: 400;
   text-decoration: underline;
+  text-transform: uppercase;
   color: #ff6600;
 }
 .maglietta__mobile__text__title .pallina,
 .risotto__mobile__text__title .pallina,
+.libro__mobile__text__title .pallina,
 .poster__mobile__text__title .pallina,
 .cartoline__mobile__text__title .pallina,
 .video__mobile__text__title .pallina,
@@ -796,6 +803,7 @@ header .header__items p {
 }
 .maglietta__mobile__text p,
 .risotto__mobile__text p,
+.libro__mobile__text p,
 .poster__mobile__text p,
 .cartoline__mobile__text p,
 .video__mobile__text p,
@@ -806,19 +814,23 @@ header .header__items p {
 }
 .maglietta__mobile__image,
 .risotto__mobile__image,
+.libro__mobile__image,
 .poster__mobile__image,
 .cartoline__mobile__image,
 .video__mobile__image,
 .vestiti__mobile__image {
   max-width: 100%;
+  text-align: center;
 }
 .maglietta__mobile__image img,
 .risotto__mobile__image img,
+.libro__mobile__image img,
 .poster__mobile__image img,
 .cartoline__mobile__image img,
 .video__mobile__image img,
 .vestiti__mobile__image img {
   max-width: 100%;
+  height: 34rem;
 }
 
 @media (min-width: 992px) {
@@ -859,6 +871,27 @@ header .header__items p {
     border: 1px solid black;
   }
   .risotto__mobile__text {
+    border-top: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .libro__mobile {
+    display: none;
+    z-index: 10;
+    max-width: 50%;
+    position: absolute;
+    top: 10vh;
+    left: 25%;
+    max-height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+  .libro__mobile__text {
     border-top: none;
   }
 }
