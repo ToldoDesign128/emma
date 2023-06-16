@@ -46,7 +46,7 @@
 }
 
 .maglietta__mobile {
-  @media #{$all} {
+  @media #{$only-mobile} {
     display: none;
     z-index: 10;
     max-width: 50%;
@@ -67,7 +67,7 @@
   }
 }
 .risotto__mobile {
-  @media #{$all} {
+  @media #{$only-mobile} {
     display: none;
     z-index: 10;
     max-width: 50%;
@@ -88,7 +88,7 @@
   }
 }
 .libro__mobile {
-  @media #{$all} {
+  @media #{$only-mobile} {
     display: none;
     z-index: 10;
     max-width: 50%;
@@ -109,7 +109,7 @@
   }
 }
 .poster__mobile {
-  @media #{$all} {
+  @media #{$only-mobile} {
     display: none;
     z-index: 10;
     max-width: 50%;
@@ -130,7 +130,7 @@
   }
 }
 .cartoline__mobile {
-  @media #{$all} {
+  @media #{$only-mobile} {
     display: none;
     z-index: 10;
     max-width: 50%;
@@ -151,7 +151,7 @@
   }
 }
 .video__mobile {
-  @media #{$all} {
+  @media #{$only-mobile} {
     display: none;
     z-index: 10;
     max-width: 50%;
@@ -173,7 +173,7 @@
 }
 .vestiti__mobile {
   margin-bottom: 15rem;
-  @media #{$all} {
+  @media #{$only-mobile} {
     display: none;
     z-index: 10;
     max-width: 50%;

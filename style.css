@@ -833,7 +833,7 @@ header .header__items p {
      object-fit: contain;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 992px) {
   .maglietta__mobile {
     display: none;
     z-index: 10;
@@ -854,7 +854,7 @@ header .header__items p {
   }
 }
 
-@media (min-width: 360px) {
+@media (min-width: 992px) {
   .risotto__mobile {
     display: none;
     z-index: 10;
@@ -875,7 +875,7 @@ header .header__items p {
   }
 }
 
-@media (min-width: 360px) {
+@media (min-width: 992px) {
   .libro__mobile {
     display: none;
     z-index: 10;
@@ -896,7 +896,7 @@ header .header__items p {
   }
 }
 
-@media (min-width: 360px) {
+@media (min-width: 992px) {
   .poster__mobile {
     display: none;
     z-index: 10;
@@ -917,7 +917,7 @@ header .header__items p {
   }
 }
 
-@media (min-width: 360px) {
+@media (min-width: 992px) {
   .cartoline__mobile {
     display: none;
     z-index: 10;
@@ -938,7 +938,7 @@ header .header__items p {
   }
 }
 
-@media (min-width: 360px) {
+@media (min-width: 992px) {
   .video__mobile {
     display: none;
     z-index: 10;
@@ -962,7 +962,7 @@ header .header__items p {
 .vestiti__mobile {
   margin-bottom: 15rem;
 }
-@media (min-width: 360px) {
+@media (min-width: 992px) {
   .vestiti__mobile {
     display: none;
     z-index: 10;
