@@ -398,7 +398,7 @@ header .header__items p {
 }
 .home__mobile__text p,
 .home__mobile__text a {
-  font-size: 2.5rem;
+  font-size: 2.35rem;
   line-height: 3.4rem;
   font-weight: 300;
 }
@@ -766,7 +766,7 @@ header .header__items p {
   position: absolute;
   top: 10svh;
   left: 25%;
-  max-height: 80svh;
+  max-height: 77svh;
   overflow-x: hidden;
   overflow-y: auto;
   flex-direction: column;
