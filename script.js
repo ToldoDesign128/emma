@@ -159,3 +159,139 @@ document.addEventListener("DOMContentLoaded", function() {
     mobileElement.classList.remove("open");
   });
 });
+
+
+// Mobile view
+
+// Maglietta-mobile
+document.addEventListener("DOMContentLoaded", function() {
+  // Aggiungi un listener per il clic sull'elemento con classe "maglietta-toggle"
+  var toggleElement = document.getElementsByClassName("maglietta-toggle-mobile")[0];
+  toggleElement.addEventListener("click", function(event) {
+    // Aggiungi la classe "open" all'elemento con id "maglietta__mobile"
+    var mobileElement = document.getElementById("maglietta__mobile");
+    mobileElement.classList.add("open");
+    event.stopPropagation(); // Impedisci la propagazione del clic agli altri elementi
+  });
+
+  // Aggiungi un listener per il clic in qualsiasi punto dello schermo
+  document.addEventListener("click", function() {
+    // Rimuovi la classe "open" dall'elemento con id "maglietta__mobile"
+    var mobileElement = document.getElementById("maglietta__mobile");
+    mobileElement.classList.remove("open");
+  });
+});
+
+// Risotto-mobile
+document.addEventListener("DOMContentLoaded", function() {
+  // Aggiungi un listener per il clic sull'elemento con classe "risotto-toggle"
+  var toggleElement = document.getElementsByClassName("risotto-toggle-mobile")[0];
+  toggleElement.addEventListener("click", function(event) {
+    // Aggiungi la classe "open" all'elemento con id "risotto__mobile"
+    var mobileElement = document.getElementById("risotto__mobile");
+    mobileElement.classList.add("open");
+    event.stopPropagation(); // Impedisci la propagazione del clic agli altri elementi
+  });
+
+  // Aggiungi un listener per il clic in qualsiasi punto dello schermo
+  document.addEventListener("click", function() {
+    // Rimuovi la classe "open" dall'elemento con id "risotto__mobile"
+    var mobileElement = document.getElementById("risotto__mobile");
+    mobileElement.classList.remove("open");
+  });
+});
+
+// Libro-mobile
+document.addEventListener("DOMContentLoaded", function() {
+  // Aggiungi un listener per il clic sull'elemento con classe "libro-toggle"
+  var toggleElement = document.getElementsByClassName("libro-toggle-mobile")[0];
+  toggleElement.addEventListener("click", function(event) {
+    // Aggiungi la classe "open" all'elemento con id "libro__mobile"
+    var mobileElement = document.getElementById("libro__mobile");
+    mobileElement.classList.add("open");
+    event.stopPropagation(); // Impedisci la propagazione del clic agli altri elementi
+  });
+
+  // Aggiungi un listener per il clic in qualsiasi punto dello schermo
+  document.addEventListener("click", function() {
+    // Rimuovi la classe "open" dall'elemento con id "libro__mobile"
+    var mobileElement = document.getElementById("libro__mobile");
+    mobileElement.classList.remove("open");
+  });
+});
+
+// Poster-mobile
+document.addEventListener("DOMContentLoaded", function() {
+  // Aggiungi un listener per il clic sull'elemento con classe "poster-toggle"
+  var toggleElement = document.getElementsByClassName("poster-toggle-mobile")[0];
+  toggleElement.addEventListener("click", function(event) {
+    // Aggiungi la classe "open" all'elemento con id "poster__mobile"
+    var mobileElement = document.getElementById("poster__mobile");
+    mobileElement.classList.add("open");
+    event.stopPropagation(); // Impedisci la propagazione del clic agli altri elementi
+  });
+
+  // Aggiungi un listener per il clic in qualsiasi punto dello schermo
+  document.addEventListener("click", function() {
+    // Rimuovi la classe "open" dall'elemento con id "poster__mobile"
+    var mobileElement = document.getElementById("poster__mobile");
+    mobileElement.classList.remove("open");
+  });
+});
+
+// Cartoline-mobile
+document.addEventListener("DOMContentLoaded", function() {
+  // Aggiungi un listener per il clic sull'elemento con classe "cartoline-toggle"
+  var toggleElement = document.getElementsByClassName("cartoline-toggle-mobile")[0];
+  toggleElement.addEventListener("click", function(event) {
+    // Aggiungi la classe "open" all'elemento con id "cartoline__mobile"
+    var mobileElement = document.getElementById("cartoline__mobile");
+    mobileElement.classList.add("open");
+    event.stopPropagation(); // Impedisci la propagazione del clic agli altri elementi
+  });
+
+  // Aggiungi un listener per il clic in qualsiasi punto dello schermo
+  document.addEventListener("click", function() {
+    // Rimuovi la classe "open" dall'elemento con id "cartoline__mobile"
+    var mobileElement = document.getElementById("cartoline__mobile");
+    mobileElement.classList.remove("open");
+  });
+});
+
+// Video-mobile
+document.addEventListener("DOMContentLoaded", function() {
+  // Aggiungi un listener per il clic sull'elemento con classe "video-toggle"
+  var toggleElement = document.getElementsByClassName("video-toggle-mobile")[0];
+  toggleElement.addEventListener("click", function(event) {
+    // Aggiungi la classe "open" all'elemento con id "video__mobile"
+    var mobileElement = document.getElementById("video__mobile");
+    mobileElement.classList.add("open");
+    event.stopPropagation(); // Impedisci la propagazione del clic agli altri elementi
+  });
+
+  // Aggiungi un listener per il clic in qualsiasi punto dello schermo
+  document.addEventListener("click", function() {
+    // Rimuovi la classe "open" dall'elemento con id "video__mobile"
+    var mobileElement = document.getElementById("video__mobile");
+    mobileElement.classList.remove("open");
+  });
+});
+
+// Vestiti-mobile
+document.addEventListener("DOMContentLoaded", function() {
+  // Aggiungi un listener per il clic sull'elemento con classe "vestiti-toggle"
+  var toggleElement = document.getElementsByClassName("vestiti-toggle-mobile")[0];
+  toggleElement.addEventListener("click", function(event) {
+    // Aggiungi la classe "open" all'elemento con id "vestiti__mobile"
+    var mobileElement = document.getElementById("vestiti__mobile");
+    mobileElement.classList.add("open");
+    event.stopPropagation(); // Impedisci la propagazione del clic agli altri elementi
+  });
+
+  // Aggiungi un listener per il clic in qualsiasi punto dello schermo
+  document.addEventListener("click", function() {
+    // Rimuovi la classe "open" dall'elemento con id "vestiti__mobile"
+    var mobileElement = document.getElementById("vestiti__mobile");
+    mobileElement.classList.remove("open");
+  });
+});

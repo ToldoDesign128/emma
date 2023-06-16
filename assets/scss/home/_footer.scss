@@ -2,9 +2,9 @@
 
 footer{
     position: fixed;
-    top: 90vh;
+    top: 90svh;
     left: 0;
-    height: 10vh;
+    height: 10svh;
     width: 100%;
     background: #fff;
     z-index: 999;
@@ -31,7 +31,7 @@ footer{
         }
     }
     @media (max-width: 768px) {
-        top: 88vh;
-        height: 12vh;
+        top: 88svh;
+        height: 12svh;
     }
 }

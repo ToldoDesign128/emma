@@ -222,8 +222,6 @@ p {
   font-size: 2rem;
   line-height: 1.8rem;
   font-weight: 500;
-  -webkit-hyphens: auto;
-  hyphens: auto;
 }
 
 a {
@@ -283,9 +281,9 @@ a:hover {
 
 footer {
   position: fixed;
-  top: 90vh;
+  top: 90svh;
   left: 0;
-  height: 10vh;
+  height: 10svh;
   width: 100%;
   background: #fff;
   z-index: 999;
@@ -313,8 +311,8 @@ footer .contact .pallina {
 }
 @media (max-width: 768px) {
   footer {
-    top: 88vh;
-    height: 12vh;
+    top: 88svh;
+    height: 12svh;
   }
 }
 
@@ -322,7 +320,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 10vh;
+  height: 10svh;
   width: 100%;
   background: #fff;
   z-index: 999;
@@ -348,13 +346,13 @@ header .header__items p {
 }
 @media (max-width: 768px) {
   header {
-    height: 8vh;
+    height: 8svh;
   }
 }
 
 .home {
   padding: 0 2rem;
-  height: 100vh;
+  height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -393,7 +391,7 @@ header .header__items p {
 .home__mobile {
   padding: 0 1rem;
   display: none;
-  height: 100vh;
+  height: 100svh;
 }
 .home__mobile__text {
   text-align: left;
@@ -401,10 +399,11 @@ header .header__items p {
 .home__mobile__text p,
 .home__mobile__text a {
   font-size: 2.5rem;
-  line-height: 2.8rem;
+  line-height: 3.4rem;
   font-weight: 300;
 }
 .home__mobile__text a {
+  margin-right: 4.5rem;
   position: relative;
   transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   color: black;
@@ -416,8 +415,8 @@ header .header__items p {
   display: inline-block;
   position: absolute;
   z-index: -10;
-  left: 70%;
-  top: -30%;
+  left: 105%;
+  top: -40%;
   height: 5rem;
   width: 5rem;
   background-size: contain;
@@ -439,8 +438,8 @@ header .header__items p {
 }
 
 .animation {
-  width: 100vw;
-  height: 100vh;
+  width: 100svw;
+  height: 100svh;
   position: absolute;
   top: 0;
   left: 0;
@@ -761,9 +760,19 @@ header .header__items p {
 .cartoline__mobile,
 .video__mobile,
 .vestiti__mobile {
-  width: 100%;
-  padding: 0 1rem;
-  padding-top: 8rem;
+  display: none;
+  z-index: 10;
+  max-width: 50%;
+  position: absolute;
+  top: 10svh;
+  left: 25%;
+  max-height: 80svh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid black;
 }
 .maglietta__mobile__text,
 .risotto__mobile__text,
@@ -774,40 +783,41 @@ header .header__items p {
 .vestiti__mobile__text {
   padding-top: 2rem;
   border-top: 1px solid black;
+  border-top: none;
 }
-.maglietta__mobile__text__title,
-.risotto__mobile__text__title,
-.libro__mobile__text__title,
-.poster__mobile__text__title,
-.cartoline__mobile__text__title,
-.video__mobile__text__title,
-.vestiti__mobile__text__title {
+.maglietta__mobile__title,
+.risotto__mobile__title,
+.libro__mobile__title,
+.poster__mobile__title,
+.cartoline__mobile__title,
+.video__mobile__title,
+.vestiti__mobile__title {
   font-family: "Circular Std", sans-serif;
   font-weight: 400;
   text-decoration: underline;
   text-transform: uppercase;
   color: #ff6600;
 }
-.maglietta__mobile__text__title .pallina,
-.risotto__mobile__text__title .pallina,
-.libro__mobile__text__title .pallina,
-.poster__mobile__text__title .pallina,
-.cartoline__mobile__text__title .pallina,
-.video__mobile__text__title .pallina,
-.vestiti__mobile__text__title .pallina {
+.maglietta__mobile__title .pallina,
+.risotto__mobile__title .pallina,
+.libro__mobile__title .pallina,
+.poster__mobile__title .pallina,
+.cartoline__mobile__title .pallina,
+.video__mobile__title .pallina,
+.vestiti__mobile__title .pallina {
   height: 5px;
   width: 5px;
   border-radius: 100px;
   margin-bottom: 5px;
   background-color: #ff6600;
 }
-.maglietta__mobile__text p,
-.risotto__mobile__text p,
-.libro__mobile__text p,
-.poster__mobile__text p,
-.cartoline__mobile__text p,
-.video__mobile__text p,
-.vestiti__mobile__text p {
+.maglietta__mobile p,
+.risotto__mobile p,
+.libro__mobile p,
+.poster__mobile p,
+.cartoline__mobile p,
+.video__mobile p,
+.vestiti__mobile p {
   font-family: "Circular Std", sans-serif;
   font-weight: 500;
   margin: 2rem 0;
@@ -819,7 +829,6 @@ header .header__items p {
 .cartoline__mobile__image,
 .video__mobile__image,
 .vestiti__mobile__image {
-  max-width: 100%;
   text-align: center;
 }
 .maglietta__mobile__image img,
@@ -831,155 +840,31 @@ header .header__items p {
 .vestiti__mobile__image img {
   max-width: 100%;
   height: 34rem;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
-
-@media (min-width: 992px) {
-  .maglietta__mobile {
-    display: none;
-    z-index: 10;
-    max-width: 50%;
-    position: absolute;
-    top: 10vh;
-    left: 25%;
-    max-height: 80vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: #fff;
-    border: 1px solid black;
-  }
-  .maglietta__mobile__text {
-    border-top: none;
+@media (max-width: 992px) {
+  .maglietta__mobile__image img,
+  .risotto__mobile__image img,
+  .libro__mobile__image img,
+  .poster__mobile__image img,
+  .cartoline__mobile__image img,
+  .video__mobile__image img,
+  .vestiti__mobile__image img {
+    width: 100%;
+    height: auto;
   }
 }
-
-@media (min-width: 992px) {
-  .risotto__mobile {
-    display: none;
-    z-index: 10;
-    max-width: 50%;
-    position: absolute;
-    top: 10vh;
-    left: 25%;
-    max-height: 80vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: #fff;
-    border: 1px solid black;
-  }
-  .risotto__mobile__text {
-    border-top: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .libro__mobile {
-    display: none;
-    z-index: 10;
-    max-width: 50%;
-    position: absolute;
-    top: 10vh;
-    left: 25%;
-    max-height: 80vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: #fff;
-    border: 1px solid black;
-  }
-  .libro__mobile__text {
-    border-top: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .poster__mobile {
-    display: none;
-    z-index: 10;
-    max-width: 50%;
-    position: absolute;
-    top: 10vh;
-    left: 25%;
-    max-height: 80vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: #fff;
-    border: 1px solid black;
-  }
-  .poster__mobile__text {
-    border-top: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .cartoline__mobile {
-    display: none;
-    z-index: 10;
-    max-width: 50%;
-    position: absolute;
-    top: 10vh;
-    left: 25%;
-    max-height: 80vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: #fff;
-    border: 1px solid black;
-  }
-  .cartoline__mobile__text {
-    border-top: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .video__mobile {
-    display: none;
-    z-index: 10;
-    max-width: 50%;
-    position: absolute;
-    top: 10vh;
-    left: 25%;
-    max-height: 80vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: #fff;
-    border: 1px solid black;
-  }
-  .video__mobile__text {
-    border-top: none;
-  }
-}
-
-.vestiti__mobile {
-  margin-bottom: 15rem;
-}
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+  .maglietta__mobile,
+  .risotto__mobile,
+  .libro__mobile,
+  .poster__mobile,
+  .cartoline__mobile,
+  .video__mobile,
   .vestiti__mobile {
-    display: none;
-    z-index: 10;
-    max-width: 50%;
-    position: absolute;
-    top: 10vh;
-    left: 25%;
-    max-height: 80vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    flex-direction: column;
-    padding: 2rem;
-    background-color: #fff;
-    border: 1px solid black;
-  }
-  .vestiti__mobile__text {
-    border-top: none;
+    max-width: 90%;
+    left: 5%;
   }
 }
 
