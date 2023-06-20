@@ -91,15 +91,15 @@
             <p>Sullo sfondo si leggono le tre definizioni del colore: il suo nome, la sua poesia e la sua immagine sotto forma di codice.</p>
         </div>
         <div class="poster__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster8.jpg" alt="">
+            <img loading="lazy" class="shadow" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster8.jpg" alt="">
         </div>
-        <div class="poster__mobile__text no-border">
+        <div class="poster__mobile__text no-border mt-1">
             <h2 class="poster__mobile__text__title">KARAOKE NIGHT</h2>
             <p>Questo poster è stato realizzato per una serata karaoke.</p>
             <p>Il visual geometrico interpreta l’innalzamento del tono di voce tipico degli eventi con questo tema.</p>
         </div>
         <div class="poster__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster-karaoke2-scaled.jpg" alt="">
+            <img loading="lazy" class="shadow" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster-karaoke2-scaled.jpg" alt="">
         </div>
     </section>
 
