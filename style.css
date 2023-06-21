@@ -318,8 +318,8 @@ footer .contact p .pallina {
 }
 @media (max-width: 768px) {
   footer {
-    top: 88svh;
-    height: 12svh;
+    top: 85svh;
+    height: 15svh;
   }
 }
 
@@ -440,6 +440,7 @@ header .header__items p {
 @media (max-width: 768px) {
   .home {
     padding: 0;
+    align-items: start;
     height: auto;
   }
 }
@@ -773,7 +774,7 @@ header .header__items p {
   position: absolute;
   top: 10svh;
   left: 25%;
-  max-height: 77svh;
+  max-height: 75svh;
   overflow-x: hidden;
   overflow-y: auto;
   flex-direction: column;
