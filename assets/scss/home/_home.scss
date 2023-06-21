@@ -1,6 +1,6 @@
 .home {
   padding: 0 2rem;
-  max-height: 80svh;
+  height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,17 +35,17 @@
   &__mobile {
     padding: 0 1rem;
     display: none;
-    height: 77svh;
+    height: 100svh;
 
     &__text {
       text-align: left;
 
       p,
       a {
-        font-size: 2.2rem;
-        line-height: 3.4rem;
+        font-size: 2rem;
+        line-height: 3.2rem;
         font-weight: 300;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
       }
       a {
         margin-right: 4.5rem;

@@ -284,6 +284,9 @@ a:hover {
 }
 
 footer {
+  position: fixed;
+  top: 90svh;
+  left: 0;
   height: 10svh;
   width: 100%;
   background: #fff;
@@ -315,11 +318,15 @@ footer .contact p .pallina {
 }
 @media (max-width: 768px) {
   footer {
-    height: 15svh;
+    top: 88svh;
+    height: 12svh;
   }
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 10svh;
   width: 100%;
   background: #fff;
@@ -352,7 +359,7 @@ header .header__items p {
 
 .home {
   padding: 0 2rem;
-  max-height: 80svh;
+  height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -391,17 +398,17 @@ header .header__items p {
 .home__mobile {
   padding: 0 1rem;
   display: none;
-  height: 77svh;
+  height: 100svh;
 }
 .home__mobile__text {
   text-align: left;
 }
 .home__mobile__text p,
 .home__mobile__text a {
-  font-size: 2.2rem;
-  line-height: 3.4rem;
+  font-size: 2rem;
+  line-height: 3.2rem;
   font-weight: 300;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .home__mobile__text a {
   margin-right: 4.5rem;
