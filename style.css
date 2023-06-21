@@ -405,8 +405,8 @@ header .header__items p {
 }
 .home__mobile__text p,
 .home__mobile__text a {
-  font-size: 2.35rem;
-  line-height: 3.4rem;
+  font-size: 2rem;
+  line-height: 3.2rem;
   font-weight: 300;
 }
 .home__mobile__text a {
@@ -433,14 +433,13 @@ header .header__items p {
   .home__mobile {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
   }
 }
 @media (max-width: 768px) {
   .home {
     padding: 0;
-    align-items: start;
     height: auto;
   }
 }
