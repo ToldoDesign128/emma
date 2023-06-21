@@ -7,6 +7,9 @@ mix.sass('assets/scss/style.scss', 'style.css');
 mix.webpackConfig({
   watchOptions: {
     ignored: /node_modules/
+  },
+  stats: {
+    children: true,
   }
 })
 
