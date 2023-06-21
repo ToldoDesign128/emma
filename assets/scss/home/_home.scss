@@ -1,6 +1,6 @@
 .home {
   padding: 0 2rem;
-  height: 100svh;
+  max-height: 80svh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@
   &__mobile {
     padding: 0 1rem;
     display: none;
-    height: 100svh;
+    height: 77svh;
 
     &__text {
       text-align: left;

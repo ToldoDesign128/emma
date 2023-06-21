@@ -1,9 +1,6 @@
 // _footer.scss
 
 footer{
-    position: fixed;
-    top: 90svh;
-    left: 0;
     height: 10svh;
     width: 100%;
     background: #fff;
@@ -35,7 +32,6 @@ footer{
         }
     }
     @media (max-width: 768px) {
-        top: 85svh;
         height: 15svh;
     }
 }

@@ -284,9 +284,6 @@ a:hover {
 }
 
 footer {
-  position: fixed;
-  top: 90svh;
-  left: 0;
   height: 10svh;
   width: 100%;
   background: #fff;
@@ -318,15 +315,11 @@ footer .contact p .pallina {
 }
 @media (max-width: 768px) {
   footer {
-    top: 85svh;
     height: 15svh;
   }
 }
 
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
   height: 10svh;
   width: 100%;
   background: #fff;
@@ -359,7 +352,7 @@ header .header__items p {
 
 .home {
   padding: 0 2rem;
-  height: 100svh;
+  max-height: 80svh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -398,7 +391,7 @@ header .header__items p {
 .home__mobile {
   padding: 0 1rem;
   display: none;
-  height: 100svh;
+  height: 77svh;
 }
 .home__mobile__text {
   text-align: left;
