@@ -23,28 +23,18 @@
     padding-top: 2rem;
     border-top: 1px solid black;
     border-top: none;
-  }
 
-  &__title {
-    font-family: $primary-font;
-    font-weight: 400;
-    text-decoration: underline;
-    text-transform: uppercase;
-    color: #ff6600;
+    p {
+      font-weight: 400;
+      margin: 2rem 0;
+    }
 
-    .pallina {
-      height: 5px;
-      width: 5px;
-      border-radius: 100px;
-      margin-bottom: 8px;
-      background-color: #ff6600;
+    &__data{
+      font-family: $secondary-font;
+      font-size: 1.6rem;
     }
   }
-  p {
-    font-family: $primary-font;
-    font-weight: 400;
-    margin: 2rem 0;
-  }
+
   &__image {
     text-align: center;
 

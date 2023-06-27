@@ -424,7 +424,7 @@ header .header__items p {
   position: absolute;
   z-index: -10;
   left: 105%;
-  top: -40%;
+  top: -36%;
   height: 4.2rem;
   width: 4.2rem;
   background-size: contain;
@@ -793,42 +793,25 @@ header .header__items p {
   border-top: 1px solid black;
   border-top: none;
 }
-.maglietta__mobile__title,
-.risotto__mobile__title,
-.libro__mobile__title,
-.poster__mobile__title,
-.cartoline__mobile__title,
-.video__mobile__title,
-.vestiti__mobile__title {
-  font-family: "Circular Std", sans-serif;
-  font-weight: 400;
-  text-decoration: underline;
-  text-transform: uppercase;
-  color: #ff6600;
-}
-.maglietta__mobile__title .pallina,
-.risotto__mobile__title .pallina,
-.libro__mobile__title .pallina,
-.poster__mobile__title .pallina,
-.cartoline__mobile__title .pallina,
-.video__mobile__title .pallina,
-.vestiti__mobile__title .pallina {
-  height: 5px;
-  width: 5px;
-  border-radius: 100px;
-  margin-bottom: 8px;
-  background-color: #ff6600;
-}
-.maglietta__mobile p,
-.risotto__mobile p,
-.libro__mobile p,
-.poster__mobile p,
-.cartoline__mobile p,
-.video__mobile p,
-.vestiti__mobile p {
-  font-family: "Circular Std", sans-serif;
+.maglietta__mobile__text p,
+.risotto__mobile__text p,
+.libro__mobile__text p,
+.poster__mobile__text p,
+.cartoline__mobile__text p,
+.video__mobile__text p,
+.vestiti__mobile__text p {
   font-weight: 400;
   margin: 2rem 0;
+}
+.maglietta__mobile__text__data,
+.risotto__mobile__text__data,
+.libro__mobile__text__data,
+.poster__mobile__text__data,
+.cartoline__mobile__text__data,
+.video__mobile__text__data,
+.vestiti__mobile__text__data {
+  font-family: "Playfair", serif;
+  font-size: 1.6rem;
 }
 .maglietta__mobile__image,
 .risotto__mobile__image,
