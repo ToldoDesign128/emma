@@ -77,10 +77,10 @@
             <p class="poster__mobile__text__data">Zurigo, VC MA Thesis ZHDK 2023</p>
         </div>
         <div class="libro__mobile__image">
-            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-1-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-1.jpg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-2-scaled.jpg" alt="">
-            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-3-scaled.jpg" alt="">
-            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-4-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-3.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-4.jpg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-5-scaled.jpg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-6-scaled.jpg" alt="">
         </div>
