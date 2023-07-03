@@ -9,9 +9,9 @@
             <p>dei miei lavori. I miei amici mi hanno chiesto di disegnare una</p>
             <p> <a href="#" class="home__text__link maglietta-toggle"> maglietta.</a> Abbiamo anche organizzato un <a href="#" class="home__text__link risotto-toggle">risotto party.</a> La mia ricerca</p>
             <p> sull'affascinante mondo dei colori ha dato frutto ad un <a href="#" class="home__text__link libro-toggle">libro</a></p>
-            <p> delle <a href="#" class="home__text__link cartoline-toggle">cartoline</a> e un'<a href="#" class="home__text__link video-toggle">installazione audiovisiva</a></p>
+            <p> delle <a href="#" class="home__text__link cartoline-toggle">cartoline</a> e un'<a href="#" class="home__text__link video-toggle">installazione audiovisiva.</a></p>
             <p>Inoltre, ho realizzato alcuni <a href="#" class="home__text__link poster-toggle">poster</a> e ho collaborato con </p>
-            <p> un <a href="#vestiti__mobile" class="home__text__link vestiti-toggle">negozio di vestiti</a>.</p>
+            <p> un <a href="#vestiti__mobile" class="home__text__link vestiti-toggle">negozio di vestiti.</a></p>
         </div>
     </section>
     <section class="home__mobile">
@@ -25,7 +25,7 @@
                 <h5>grafica editoriale <span class="pallina"></span> brand identity <span class="pallina"></span> promozione eventi <span class="pallina"></span> installazioni</h5>
             </div>
             <div class="animation__box__2">
-                <h5>BA<span class="pallina"></span> IUAV Università di Venezia</h5>
+                <h5>BA <span class="pallina"></span> IUAV Università di Venezia</h5>
             </div>
             <div class="animation__box__3">
                 <h5>MA <span class="pallina"></span> Visual Communication <span class="pallina"></span> Zürcher Hochschule der Künste</h5>
@@ -44,9 +44,9 @@
             <p class="poster__mobile__text__data">Spiazzi (VR), Giugno 2022</p>
         </div>
         <div class="maglietta__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdavanti-copia-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockupdietro-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/mockup-taglio-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/maglietta-3.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/maglietta-2.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/maglietta-1.jpg" alt="">
 
         </div>
     </section>
@@ -60,8 +60,8 @@
             <p class="poster__mobile__text__data">Agosto 2022</p>
         </div>
         <div class="risotto__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/LOCANDINA-RISOTTATA-22_page-0001-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/06/NERORISO.png" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/risotto2.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/risotto1.jpeg" alt="">
         </div>
     </section>
 
@@ -69,7 +69,7 @@
     <section id="libro__mobile" class="libro__mobile toggle-items">
         <div class="libro__mobile__text">
             <h2 class="libro__mobile__text__title">LIBRO <span class="pallina"></span> COLOUR AS WORD, STORY, IMAGE.</h2>
-            <p>Colours are a matter of sensations, feelings, memories, and logical connections</p>
+            <p>Colours are a matter of sensations, feelings, memories, and logical connections.</p>
             <p>Even if not always directly, human beings are aware of the presence of precise colour codes that are used in everyday situations.</p> 
             <p>Therefore, there is an agreement on the correct use of traffic lights, road signs and so on.</p>
             <p>Colours are always influenced by context, but personal and emotional thoughts tend to predominate when it comes to the way people speak and imagine colours.</p>
@@ -77,9 +77,12 @@
             <p class="poster__mobile__text__data">Zurigo, VC MA Thesis ZHDK 2023</p>
         </div>
         <div class="libro__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/06/1-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/06/4-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/06/3-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-1-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-2-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-3-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-4-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-5-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-6-scaled.jpg" alt="">
         </div>
     </section>
 
@@ -92,7 +95,7 @@
             <p class="poster__mobile__text__data">Zurigo, Marzo 2022</p>
         </div>
         <div class="poster__mobile__image">
-            <img loading="lazy" class="shadow" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster8.jpg" alt="">
+            <img loading="lazy" class="shadow" src="https://www.emmascala.it/wp-content/uploads/2023/07/poster-2.jpg" alt="">
         </div>
         <div class="poster__mobile__text no-border mt-1">
             <h2 class="poster__mobile__text__title">POSTER <span class="pallina"></span> KARAOKE NIGHT</h2>
@@ -101,7 +104,7 @@
             <p class="poster__mobile__text__data">Zurigo, Dicembre 2023</p>
         </div>
         <div class="poster__mobile__image">
-            <img loading="lazy" class="shadow" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/poster-karaoke2-scaled.jpg" alt="">
+            <img loading="lazy" class="shadow" src="https://www.emmascala.it/wp-content/uploads/2023/07/poster-1.jpg" alt="">
         </div>
     </section>
 
@@ -110,14 +113,14 @@
         <div class="cartoline__mobile__text">
             <h2 class="cartoline__mobile__text__title">CARTOLINE <span class="pallina"></span> READ MY MEMORIES</h2>
             <p>Con l’ausilio dell’intelligenza artificiale ho trasformato i miei ricordi fotografici in immagini distorte.</p>
-            <p>Le frasi e le parole sono frutto della fusione del ricordo con l’interpretazione dell’AI</p>
+            <p>Le frasi e le parole sono frutto della fusione del ricordo con l’interpretazione dell’AI.</p>
             <p class="poster__mobile__text__data">Spiazzi di Monte Baldo, Aprile 2023</p>
         </div>
         <div class="cartoline__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram4-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram3-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto-instagram2-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/cartolina-1.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/cartolina-2.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/cartolina-3.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/cartolina-4.jpg" alt="">
 
         </div>
     </section>
@@ -133,9 +136,9 @@
             <p class="poster__mobile__text__data">Zurigo, Dicembre 2022</p>
         </div>
         <div class="video__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/foto1-mostra.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/IMG_4616-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/IMG_4614-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/istallazione-1.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/istallazione-2.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/istallazione-3.jpg" alt="">
         </div>
     </section>
 
@@ -148,9 +151,10 @@
             <p class="poster__mobile__text__data">Verona, Giugno 2022</p>
         </div>
         <div class="vestiti__mobile__image">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/MOCKUP-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/DSC_2026-copia-scaled.jpg" alt="">
-            <img loading="lazy" src="http://sergiom109.sg-host.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-15-at-12.32.10.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-1.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-2.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-3.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-4.jpeg" alt="">
         </div>
     </section>
 
