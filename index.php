@@ -153,7 +153,7 @@
             <p class="poster__mobile__text__data">Verona, Giugno 2022</p>
         </div>
         <div class="vestiti__mobile__image">
-            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-1.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-1.jpeg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-2.jpg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-3.jpg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-4.jpeg" alt="">
