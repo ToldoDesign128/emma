@@ -414,10 +414,6 @@ header .header__items p {
   margin-right: 4.5rem;
   position: relative;
   transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
-  color: black;
-}
-.home__mobile__text a:hover {
-  color: black;
 }
 .home__mobile__text__image {
   display: inline-block;
@@ -821,25 +817,37 @@ header .header__items p {
 .vestiti__mobile__image {
   text-align: center;
 }
-.maglietta__mobile__image img,
+.maglietta__mobile__image img, .maglietta__mobile__image video,
 .risotto__mobile__image img,
+.risotto__mobile__image video,
 .libro__mobile__image img,
+.libro__mobile__image video,
 .poster__mobile__image img,
+.poster__mobile__image video,
 .cartoline__mobile__image img,
+.cartoline__mobile__image video,
 .video__mobile__image img,
-.vestiti__mobile__image img {
+.video__mobile__image video,
+.vestiti__mobile__image img,
+.vestiti__mobile__image video {
   max-width: 60%;
   -o-object-fit: contain;
      object-fit: contain;
 }
 @media (max-width: 992px) {
-  .maglietta__mobile__image img,
+  .maglietta__mobile__image img, .maglietta__mobile__image video,
   .risotto__mobile__image img,
+  .risotto__mobile__image video,
   .libro__mobile__image img,
+  .libro__mobile__image video,
   .poster__mobile__image img,
+  .poster__mobile__image video,
   .cartoline__mobile__image img,
+  .cartoline__mobile__image video,
   .video__mobile__image img,
-  .vestiti__mobile__image img {
+  .video__mobile__image video,
+  .vestiti__mobile__image img,
+  .vestiti__mobile__image video {
     width: 100%;
     height: auto;
   }
