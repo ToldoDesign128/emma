@@ -78,10 +78,11 @@
         </div>
         <div class="libro__mobile__image">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-1-scaled.jpg" alt="">
-            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-3.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-3-scaled.jpg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-4-scaled.jpg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-2.jpeg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-1.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-3.jpeg" alt="">
             <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto">
             <source src="https://www.emmascala.it/wp-content/uploads/2023/07/7.mp4" type="video/mp4">    
         </video>
