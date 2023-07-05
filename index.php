@@ -78,11 +78,11 @@
         </div>
         <div class="libro__mobile__image">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-1-scaled.jpg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-3.jpeg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-4-scaled.jpg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-2.jpeg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-1.jpeg" alt="">
-            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/libro-3.jpeg" alt="">
-            <video autoplay muted>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto">
             <source src="https://www.emmascala.it/wp-content/uploads/2023/07/7.mp4" type="video/mp4">    
         </video>
         </div>
@@ -153,10 +153,10 @@
             <p class="poster__mobile__text__data">Verona, Giugno 2022</p>
         </div>
         <div class="vestiti__mobile__image">
-            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-1.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-1.jpg" alt="">
             <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-2.jpg" alt="">
-            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-3.jpg" alt="">
-            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-4.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/vestiti-1.jpeg" alt="">
+            <img loading="lazy" src="https://www.emmascala.it/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-05-at-12.02.22.jpeg" alt="">
         </div>
     </section>
 
